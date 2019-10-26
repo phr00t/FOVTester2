@@ -1,0 +1,8 @@
+D:\Phr00tsSoftware\XenkoProjects\FOVTester2\FOVTester2\bin\Release\netstandard2.0\FOVTester2.deps.json
+D:\Phr00tsSoftware\XenkoProjects\FOVTester2\FOVTester2\bin\Release\netstandard2.0\FOVTester2.dll
+D:\Phr00tsSoftware\XenkoProjects\FOVTester2\FOVTester2\bin\Release\netstandard2.0\FOVTester2.pdb
+D:\Phr00tsSoftware\XenkoProjects\FOVTester2\FOVTester2\obj\Release\netstandard2.0\FOVTester2.csprojAssemblyReference.cache
+D:\Phr00tsSoftware\XenkoProjects\FOVTester2\FOVTester2\obj\Release\netstandard2.0\FOVTester2.AssemblyInfoInputs.cache
+D:\Phr00tsSoftware\XenkoProjects\FOVTester2\FOVTester2\obj\Release\netstandard2.0\FOVTester2.AssemblyInfo.cs
+D:\Phr00tsSoftware\XenkoProjects\FOVTester2\FOVTester2\obj\Release\netstandard2.0\FOVTester2.dll
+D:\Phr00tsSoftware\XenkoProjects\FOVTester2\FOVTester2\obj\Release\netstandard2.0\FOVTester2.pdb

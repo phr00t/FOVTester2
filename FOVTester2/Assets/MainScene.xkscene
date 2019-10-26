@@ -1,0 +1,127 @@
+!SceneAsset
+Id: 3abaf203-d6fc-49d4-be3a-df3327b08e50
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 31aabf7c-a889-47f3-a587-b6a663072921
+        - ref!! e9b71976-2e3d-49af-8661-007cac7b853e
+        - ref!! 91701d26-9411-4a43-949f-2d38fcaf6c09
+        - ref!! 612e0ffb-2f2d-403a-b5b9-0e713170a07c
+        - ref!! 1781211b-9ece-47cf-9531-3b0b15725a08
+        - ref!! bc15a0c1-fb3a-41af-b335-e97112ca0f63
+    Parts:
+        -   Entity:
+                Id: 1781211b-9ece-47cf-9531-3b0b15725a08
+                Name: Cube
+                Components:
+                    a4a1e64701ad05697fcf36d331d96476: !TransformComponent
+                        Id: 9cb86a10-2a63-4f2f-9416-7bf256bc6781
+                        Position: {X: 0.0, Y: 1.4, Z: -12.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 0.1}
+                        TrackVRHand: None
+                        Children: {}
+                    617b4f5c2e0bc134c3f6817aa21d171b: !ModelComponent
+                        Id: 59ac3177-ced8-4eb1-a7d2-db1b2e9ba3c7
+                        Model: f018173f-2773-4bdb-ba97-4409a39eaa8e:Cube
+                        Materials: {}
+        -   Entity:
+                Id: 31aabf7c-a889-47f3-a587-b6a663072921
+                Name: Camera
+                Components:
+                    7d58d405f0a01bcd0df9a63d4106027e: !TransformComponent
+                        Id: 364fcb52-7576-4afa-b75e-252e09dd7d4b
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        TrackVRHand: None
+                        Children: {}
+                    b39be68e1825399570870eb73bb62bd3: !CameraComponent
+                        Id: f78c2d26-1662-4223-82bd-d788f23b585a
+                        Name: null
+                        Projection: Perspective
+                        Slot: b9b583f8-177e-4064-a35c-89eb4e6d6aa0
+                    be0cf3492780470044848608d9bbbbfc: !FOVTester2.FOVSystem,FOVTester2
+                        Id: 8e4d47b0-cd5b-4a89-bb90-a637df3e386c
+                        CubeTransform: ref!! 9cb86a10-2a63-4f2f-9416-7bf256bc6781
+                        TextPage: ee006b2d-0e01-4017-b0cc-1205ddd35ea1:Page
+                        FOVResults: null
+        -   Entity:
+                Id: 612e0ffb-2f2d-403a-b5b9-0e713170a07c
+                Name: Ground
+                Components:
+                    c06176544af7612fca13622b39fd1403: !TransformComponent
+                        Id: b0c4e081-9519-49fb-ad3d-4decb5bf0dc4
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        TrackVRHand: None
+                        Children: {}
+                    7a5648c0420c57424773b56a3436d858: !ModelComponent
+                        Id: 04e3b0ba-72ab-4440-ac6a-e30612dae694
+                        Model: 2dac5e00-47eb-4d70-b8c2-edf80b17666e:Ground
+                        Materials: {}
+        -   Entity:
+                Id: 91701d26-9411-4a43-949f-2d38fcaf6c09
+                Name: Skybox
+                Components:
+                    aab52b4c19f1abefc8e0b300f764f293: !TransformComponent
+                        Id: 612c237d-2c52-4b03-bd3a-30d53a42e1a0
+                        Position: {X: 0.0, Y: 0.5805032, Z: -2.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        TrackVRHand: None
+                        Children: {}
+                    4246e38d4f8c321e1cb0085f05b99ebf: !BackgroundComponent
+                        Id: 5b814de3-0ba2-4693-b1a4-3ef5ef4122f0
+                        Texture: b2ab14ca-f202-4469-befb-fc9f42f95e75:Skybox texture
+                        Intensity: 0.3
+                    2d026e718c0cce04d247d971cb6891c6: !LightComponent
+                        Id: c28b0aa2-c1a4-4741-b412-eb5b7f94789e
+                        Type: !LightSkybox
+                            Skybox: f848b9c5-af13-4563-9d88-bbd62790df10:Skybox
+        -   Entity:
+                Id: bc15a0c1-fb3a-41af-b335-e97112ca0f63
+                Name: UI
+                Components:
+                    22732aaf092cf12d75b5544fe1f22f09: !TransformComponent
+                        Id: bca3699a-5a1e-4f09-9b82-24573ed539c8
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        TrackVRHand: Right
+                        Children: {}
+                    8bac60b487f2b4ec34d8b9b1f671ddf7: !UIComponent
+                        Id: d225b950-c4e4-4717-8dae-00a34c9a25b8
+                        Page: ee006b2d-0e01-4017-b0cc-1205ddd35ea1:Page
+                        IsFullScreen: false
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.0, Y: 1.0, Z: 1.0}
+        -   Entity:
+                Id: e9b71976-2e3d-49af-8661-007cac7b853e
+                Name: Directional light
+                Components:
+                    32e5df5f87308417eff2b41b1f892709: !TransformComponent
+                        Id: 00b3a5fe-f72c-45ba-8abe-e4897c8eddb8
+                        Position: {X: 0.0, Y: 2.0, Z: 0.0}
+                        Rotation: {X: 1.131334E-08, Y: -0.9659258, Z: -0.258819044, W: -4.222196E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        TrackVRHand: None
+                        Children: {}
+                    c5c098569bce505f6d9a3354ec196fde: !LightComponent
+                        Id: 54f8ffd0-1008-4db1-a49c-026c543d077e
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow:
+                                Filter: !LightShadowMapFilterTypePcf
+                                    FilterSize: Filter5x5
+                                Size: Large
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                BiasParameters: {}
+                                ComputeTransmittance: false
+                        Intensity: 5.0

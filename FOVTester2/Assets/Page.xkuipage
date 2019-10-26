@@ -1,0 +1,35 @@
+!UIPageAsset
+Id: ee006b2d-0e01-4017-b0cc-1205ddd35ea1
+SerializedVersion: {Xenko: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 93d229d2-0ad5-48b9-96fb-9cbce18e6657
+    Parts:
+        -   UIElement: !Grid
+                Id: 93d229d2-0ad5-48b9-96fb-9cbce18e6657
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Name: UIElement-93d229
+                Children:
+                    b40bc919e1d405f53700b678836c51ca: !TextBlock ref!! f7ae0a19-c4e5-426f-b8f2-f2381519548d
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !TextBlock
+                Id: f7ae0a19-c4e5-426f-b8f2-f2381519548d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 200}
+                Width: 440.0
+                Height: 105.0
+                Margin: {Left: 378.0, Top: 306.0, Right: 462.0, Bottom: 309.0}
+                Name: AngleText
+                Text: AngleText<br>AngleText
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:XenkoDefaultFont
+                TextSize: 50.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Center
+                TextVerticalAlignment: Center

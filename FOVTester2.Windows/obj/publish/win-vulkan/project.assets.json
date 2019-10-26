@@ -1,0 +1,2865 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "FFmpeg.AutoGen/3.4.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/FFmpeg.AutoGen.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FFmpeg.AutoGen.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "SharpDX/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.dll": {}
+        }
+      },
+      "SharpDX.D3DCompiler/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.D3DCompiler.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.D3DCompiler.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.Direct3D12/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D12.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D12.dll": {}
+        }
+      },
+      "SharpDX.Direct3D9/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D9.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D9.dll": {}
+        }
+      },
+      "SharpDX.DirectInput/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectInput.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectInput.dll": {}
+        }
+      },
+      "SharpDX.DXGI/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DXGI.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DXGI.dll": {}
+        }
+      },
+      "SharpDX.Mathematics/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Mathematics.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Mathematics.dll": {}
+        }
+      },
+      "SharpDX.MediaFoundation/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0",
+          "SharpDX.Direct3D9": "4.2.0",
+          "SharpDX.Mathematics": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.MediaFoundation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.MediaFoundation.dll": {}
+        }
+      },
+      "SharpDX.RawInput/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net45/SharpDX.RawInput.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.RawInput.dll": {}
+        }
+      },
+      "SharpDX.XInput/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.XInput.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.XInput.dll": {}
+        }
+      },
+      "System.Drawing.Common/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Drawing.Common.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Dataflow/4.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.dll": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.ValueTuple.dll": {}
+        }
+      },
+      "Xenko/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "4.5.1",
+          "Xenko.Core.Mathematics": "3.3.2-beta01",
+          "Xenko.Core.Serialization": "3.3.2-beta01"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xenko.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xenko.dll": {}
+        }
+      },
+      "Xenko.Audio/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko": "3.3.2-beta01",
+          "Xenko.Native": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Audio.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard2.0/Xenko.Audio.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/osx/lib/netstandard2.0/Xenko.Audio.dll": {
+            "assetType": "runtime",
+            "rid": "osx"
+          },
+          "runtimes/win/lib/netstandard2.0/Xenko.Audio.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Xenko.Core/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.2.2",
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Core.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xenko.Core.props": {},
+          "buildTransitive/Xenko.Core.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard2.0/Xenko.Core.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/osx/lib/netstandard2.0/Xenko.Core.dll": {
+            "assetType": "runtime",
+            "rid": "osx"
+          },
+          "runtimes/win/lib/netstandard2.0/Xenko.Core.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Xenko.Core.Assets.CompilerApp/3.3.2-beta01": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Xenko.Core.Assets.CompilerApp.targets": {}
+        }
+      },
+      "Xenko.Core.IO/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Core": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Core.IO.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard2.0/Xenko.Core.IO.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/osx/lib/netstandard2.0/Xenko.Core.IO.dll": {
+            "assetType": "runtime",
+            "rid": "osx"
+          },
+          "runtimes/win/lib/netstandard2.0/Xenko.Core.IO.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Xenko.Core.Mathematics/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Core": "3.3.2-beta01"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xenko.Core.Mathematics.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xenko.Core.Mathematics.dll": {}
+        }
+      },
+      "Xenko.Core.MicroThreading/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Core": "3.3.2-beta01"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xenko.Core.MicroThreading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xenko.Core.MicroThreading.dll": {}
+        }
+      },
+      "Xenko.Core.Serialization/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Core.IO": "3.3.2-beta01",
+          "Xenko.Core.MicroThreading": "3.3.2-beta01"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xenko.Core.Serialization.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xenko.Core.Serialization.dll": {}
+        }
+      },
+      "Xenko.Core.Shaders/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Core": "3.3.2-beta01",
+          "Xenko.Irony": "3.3.2-beta01"
+        },
+        "compile": {
+          "lib/netstandard2.0/CppNet.dll": {},
+          "lib/netstandard2.0/Xenko.Core.Shaders.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CppNet.dll": {},
+          "lib/netstandard2.0/Xenko.Core.Shaders.dll": {}
+        }
+      },
+      "Xenko.Engine/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Dataflow": "4.7.0",
+          "System.ValueTuple": "4.4.0",
+          "Xenko.Audio": "3.3.2-beta01",
+          "Xenko.Rendering": "3.3.2-beta01",
+          "Xenko.Shaders.Compiler": "3.3.2-beta01",
+          "Xenko.VirtualReality": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Engine.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard2.0/Xenko.Engine.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/osx/lib/netstandard2.0/Xenko.Engine.dll": {
+            "assetType": "runtime",
+            "rid": "osx"
+          },
+          "runtimes/win/lib/netstandard2.0/Xenko.Engine.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Xenko.Games/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Graphics": "3.3.2-beta01"
+        },
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "ref/net461/Xenko.Games.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.Games.dll": {
+            "assetType": "runtime",
+            "rid": "linux-vulkan"
+          },
+          "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.Games.dll": {
+            "assetType": "runtime",
+            "rid": "osx-vulkan"
+          },
+          "runtimes/win-d3d11/lib/net461/Xenko.Games.dll": {
+            "assetType": "runtime",
+            "rid": "win-d3d11"
+          },
+          "runtimes/win-vulkan/lib/net461/Xenko.Games.dll": {
+            "assetType": "runtime",
+            "rid": "win-vulkan"
+          }
+        }
+      },
+      "Xenko.Graphics/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX.D3DCompiler": "4.2.0",
+          "SharpDX.Direct3D11": "4.2.0",
+          "SharpDX.Direct3D12": "4.2.0",
+          "Xenko": "3.3.2-beta01",
+          "Xenko.Native": "3.3.2-beta01",
+          "Xenko.OpenTK": "1.0.2",
+          "Xenko.Shaders": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Graphics.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-vulkan/lib/netstandard2.0/SDL2-CS.dll": {
+            "assetType": "runtime",
+            "rid": "linux-vulkan"
+          },
+          "runtimes/linux-vulkan/lib/netstandard2.0/SharpFont.dll": {
+            "assetType": "runtime",
+            "rid": "linux-vulkan"
+          },
+          "runtimes/linux-vulkan/lib/netstandard2.0/SharpVulkan.dll": {
+            "assetType": "runtime",
+            "rid": "linux-vulkan"
+          },
+          "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.Graphics.dll": {
+            "assetType": "runtime",
+            "rid": "linux-vulkan"
+          },
+          "runtimes/osx-vulkan/lib/netstandard2.0/SDL2-CS.dll": {
+            "assetType": "runtime",
+            "rid": "osx-vulkan"
+          },
+          "runtimes/osx-vulkan/lib/netstandard2.0/SharpFont.dll": {
+            "assetType": "runtime",
+            "rid": "osx-vulkan"
+          },
+          "runtimes/osx-vulkan/lib/netstandard2.0/SharpVulkan.dll": {
+            "assetType": "runtime",
+            "rid": "osx-vulkan"
+          },
+          "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.Graphics.dll": {
+            "assetType": "runtime",
+            "rid": "osx-vulkan"
+          },
+          "runtimes/win-d3d11/lib/netstandard2.0/SDL2-CS.dll": {
+            "assetType": "runtime",
+            "rid": "win-d3d11"
+          },
+          "runtimes/win-d3d11/lib/netstandard2.0/SharpFont.dll": {
+            "assetType": "runtime",
+            "rid": "win-d3d11"
+          },
+          "runtimes/win-d3d11/lib/netstandard2.0/Xenko.Graphics.dll": {
+            "assetType": "runtime",
+            "rid": "win-d3d11"
+          },
+          "runtimes/win-vulkan/lib/netstandard2.0/SDL2-CS.dll": {
+            "assetType": "runtime",
+            "rid": "win-vulkan"
+          },
+          "runtimes/win-vulkan/lib/netstandard2.0/SharpFont.dll": {
+            "assetType": "runtime",
+            "rid": "win-vulkan"
+          },
+          "runtimes/win-vulkan/lib/netstandard2.0/SharpVulkan.dll": {
+            "assetType": "runtime",
+            "rid": "win-vulkan"
+          },
+          "runtimes/win-vulkan/lib/netstandard2.0/Xenko.Graphics.dll": {
+            "assetType": "runtime",
+            "rid": "win-vulkan"
+          }
+        }
+      },
+      "Xenko.Input/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX.DirectInput": "4.2.0",
+          "SharpDX.RawInput": "4.2.0",
+          "SharpDX.XInput": "4.2.0",
+          "Xenko.Games": "3.3.2-beta01"
+        },
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "ref/net461/Xenko.Input.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.Input.dll": {
+            "assetType": "runtime",
+            "rid": "linux-vulkan"
+          },
+          "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.Input.dll": {
+            "assetType": "runtime",
+            "rid": "osx-vulkan"
+          },
+          "runtimes/win-d3d11/lib/net461/Xenko.Input.dll": {
+            "assetType": "runtime",
+            "rid": "win-d3d11"
+          },
+          "runtimes/win-vulkan/lib/net461/Xenko.Input.dll": {
+            "assetType": "runtime",
+            "rid": "win-vulkan"
+          }
+        }
+      },
+      "Xenko.Irony/3.3.2-beta01": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Xenko.Irony.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xenko.Irony.dll": {}
+        }
+      },
+      "Xenko.Native/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Core.Mathematics": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Native.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard2.0/Xenko.Native.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/osx/lib/netstandard2.0/Xenko.Native.dll": {
+            "assetType": "runtime",
+            "rid": "osx"
+          },
+          "runtimes/win/lib/netstandard2.0/Xenko.Native.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Xenko.Navigation/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Physics": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Navigation.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard2.0/Xenko.Navigation.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/osx/lib/netstandard2.0/Xenko.Navigation.dll": {
+            "assetType": "runtime",
+            "rid": "osx"
+          },
+          "runtimes/win/lib/netstandard2.0/Xenko.Navigation.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Xenko.OpenTK/1.0.2": {
+        "type": "package",
+        "compile": {
+          "ref/net45/OpenTK.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenTK.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net45/OpenTK.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Xenko.Particles/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Engine": "3.3.2-beta01"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xenko.Particles.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xenko.Particles.dll": {}
+        }
+      },
+      "Xenko.Physics/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Engine": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Physics.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard2.0/BulletSharp.NetStandard.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/linux/lib/netstandard2.0/Xenko.Physics.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/osx/lib/netstandard2.0/BulletSharp.NetStandard.dll": {
+            "assetType": "runtime",
+            "rid": "osx"
+          },
+          "runtimes/osx/lib/netstandard2.0/Xenko.Physics.dll": {
+            "assetType": "runtime",
+            "rid": "osx"
+          },
+          "runtimes/win/lib/netstandard2.0/BulletSharp.NetStandard.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          },
+          "runtimes/win/lib/netstandard2.0/Xenko.Physics.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Xenko.Rendering/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Games": "3.3.2-beta01",
+          "Xenko.Native": "3.3.2-beta01"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xenko.Rendering.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xenko.Rendering.dll": {}
+        }
+      },
+      "Xenko.Shaders/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko": "3.3.2-beta01"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xenko.Shaders.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xenko.Shaders.dll": {}
+        }
+      },
+      "Xenko.Shaders.Compiler/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX.D3DCompiler": "4.2.0",
+          "Xenko.Shaders.Parser": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Shaders.Compiler.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.Shaders.Compiler.dll": {
+            "assetType": "runtime",
+            "rid": "linux-vulkan"
+          },
+          "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.Shaders.Compiler.dll": {
+            "assetType": "runtime",
+            "rid": "osx-vulkan"
+          },
+          "runtimes/win-d3d11/lib/netstandard2.0/Xenko.Shaders.Compiler.dll": {
+            "assetType": "runtime",
+            "rid": "win-d3d11"
+          },
+          "runtimes/win-d3d11/lib/netstandard2.0/glslangValidator.exe": {
+            "assetType": "runtime",
+            "rid": "win-d3d11"
+          },
+          "runtimes/win-vulkan/lib/netstandard2.0/Xenko.Shaders.Compiler.dll": {
+            "assetType": "runtime",
+            "rid": "win-vulkan"
+          },
+          "runtimes/win-vulkan/lib/netstandard2.0/glslangValidator.exe": {
+            "assetType": "runtime",
+            "rid": "win-vulkan"
+          }
+        }
+      },
+      "Xenko.Shaders.Parser/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Core.Shaders": "3.3.2-beta01",
+          "Xenko.Shaders": "3.3.2-beta01"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xenko.Shaders.Parser.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xenko.Shaders.Parser.dll": {}
+        }
+      },
+      "Xenko.UI/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Engine": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.UI.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard2.0/Xenko.UI.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/osx/lib/netstandard2.0/Xenko.UI.dll": {
+            "assetType": "runtime",
+            "rid": "osx"
+          },
+          "runtimes/win/lib/netstandard2.0/Xenko.UI.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Xenko.Video/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "FFmpeg.AutoGen": "3.4.0.2",
+          "SharpDX.Direct3D11": "4.2.0",
+          "SharpDX.Direct3D12": "4.2.0",
+          "SharpDX.MediaFoundation": "4.2.0",
+          "Xenko.Engine": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Video.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.Video.dll": {
+            "assetType": "runtime",
+            "rid": "linux-vulkan"
+          },
+          "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.Video.dll": {
+            "assetType": "runtime",
+            "rid": "osx-vulkan"
+          },
+          "runtimes/win-d3d11/lib/netstandard2.0/Xenko.Video.dll": {
+            "assetType": "runtime",
+            "rid": "win-d3d11"
+          },
+          "runtimes/win-vulkan/lib/netstandard2.0/Xenko.Video.dll": {
+            "assetType": "runtime",
+            "rid": "win-vulkan"
+          }
+        }
+      },
+      "Xenko.VirtualReality/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Games": "3.3.2-beta01",
+          "Xenko.Graphics": "3.3.2-beta01",
+          "Xenko.Input": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.VirtualReality.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.VirtualReality.dll": {
+            "assetType": "runtime",
+            "rid": "linux-vulkan"
+          },
+          "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.VirtualReality.dll": {
+            "assetType": "runtime",
+            "rid": "osx-vulkan"
+          },
+          "runtimes/win-d3d11/lib/netstandard2.0/Xenko.VirtualReality.dll": {
+            "assetType": "runtime",
+            "rid": "win-d3d11"
+          },
+          "runtimes/win-vulkan/lib/netstandard2.0/Xenko.VirtualReality.dll": {
+            "assetType": "runtime",
+            "rid": "win-vulkan"
+          }
+        }
+      },
+      "FOVTester2/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xenko.Core.Assets.CompilerApp": "3.3.2-beta01",
+          "Xenko.Engine": "3.3.2-beta01",
+          "Xenko.Navigation": "3.3.2-beta01",
+          "Xenko.Particles": "3.3.2-beta01",
+          "Xenko.Physics": "3.3.2-beta01",
+          "Xenko.UI": "3.3.2-beta01",
+          "Xenko.Video": "3.3.2-beta01"
+        },
+        "compile": {
+          "bin/placeholder/FOVTester2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FOVTester2.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-vulkan": {
+      "FFmpeg.AutoGen/3.4.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/FFmpeg.AutoGen.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FFmpeg.AutoGen.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "SharpDX/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.dll": {}
+        }
+      },
+      "SharpDX.D3DCompiler/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.D3DCompiler.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.D3DCompiler.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.Direct3D12/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D12.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D12.dll": {}
+        }
+      },
+      "SharpDX.Direct3D9/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D9.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D9.dll": {}
+        }
+      },
+      "SharpDX.DirectInput/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectInput.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectInput.dll": {}
+        }
+      },
+      "SharpDX.DXGI/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DXGI.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DXGI.dll": {}
+        }
+      },
+      "SharpDX.Mathematics/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Mathematics.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Mathematics.dll": {}
+        }
+      },
+      "SharpDX.MediaFoundation/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0",
+          "SharpDX.Direct3D9": "4.2.0",
+          "SharpDX.Mathematics": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.MediaFoundation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.MediaFoundation.dll": {}
+        }
+      },
+      "SharpDX.RawInput/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net45/SharpDX.RawInput.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.RawInput.dll": {}
+        }
+      },
+      "SharpDX.XInput/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.XInput.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.XInput.dll": {}
+        }
+      },
+      "System.Drawing.Common/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Drawing.Common.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Dataflow/4.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.dll": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.ValueTuple.dll": {}
+        }
+      },
+      "Xenko/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "4.5.1",
+          "Xenko.Core.Mathematics": "3.3.2-beta01",
+          "Xenko.Core.Serialization": "3.3.2-beta01"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xenko.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xenko.dll": {}
+        }
+      },
+      "Xenko.Audio/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko": "3.3.2-beta01",
+          "Xenko.Native": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Audio.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/Xenko.Audio.dll": {}
+        }
+      },
+      "Xenko.Core/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.2.2",
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Core.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/Xenko.Core.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xenko.Core.props": {},
+          "buildTransitive/Xenko.Core.targets": {}
+        }
+      },
+      "Xenko.Core.Assets.CompilerApp/3.3.2-beta01": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Xenko.Core.Assets.CompilerApp.targets": {}
+        }
+      },
+      "Xenko.Core.IO/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Core": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Core.IO.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/Xenko.Core.IO.dll": {}
+        }
+      },
+      "Xenko.Core.Mathematics/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Core": "3.3.2-beta01"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xenko.Core.Mathematics.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xenko.Core.Mathematics.dll": {}
+        }
+      },
+      "Xenko.Core.MicroThreading/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Core": "3.3.2-beta01"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xenko.Core.MicroThreading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xenko.Core.MicroThreading.dll": {}
+        }
+      },
+      "Xenko.Core.Serialization/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Core.IO": "3.3.2-beta01",
+          "Xenko.Core.MicroThreading": "3.3.2-beta01"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xenko.Core.Serialization.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xenko.Core.Serialization.dll": {}
+        }
+      },
+      "Xenko.Core.Shaders/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Core": "3.3.2-beta01",
+          "Xenko.Irony": "3.3.2-beta01"
+        },
+        "compile": {
+          "lib/netstandard2.0/CppNet.dll": {},
+          "lib/netstandard2.0/Xenko.Core.Shaders.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CppNet.dll": {},
+          "lib/netstandard2.0/Xenko.Core.Shaders.dll": {}
+        }
+      },
+      "Xenko.Engine/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Dataflow": "4.7.0",
+          "System.ValueTuple": "4.4.0",
+          "Xenko.Audio": "3.3.2-beta01",
+          "Xenko.Rendering": "3.3.2-beta01",
+          "Xenko.Shaders.Compiler": "3.3.2-beta01",
+          "Xenko.VirtualReality": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Engine.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/Xenko.Engine.dll": {}
+        }
+      },
+      "Xenko.Games/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Graphics": "3.3.2-beta01"
+        },
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "ref/net461/Xenko.Games.dll": {}
+        },
+        "runtime": {
+          "runtimes/win-vulkan/lib/net461/Xenko.Games.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "Xenko.Graphics/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX.D3DCompiler": "4.2.0",
+          "SharpDX.Direct3D11": "4.2.0",
+          "SharpDX.Direct3D12": "4.2.0",
+          "Xenko": "3.3.2-beta01",
+          "Xenko.Native": "3.3.2-beta01",
+          "Xenko.OpenTK": "1.0.2",
+          "Xenko.Shaders": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Graphics.dll": {}
+        },
+        "runtime": {
+          "runtimes/win-vulkan/lib/netstandard2.0/SDL2-CS.dll": {},
+          "runtimes/win-vulkan/lib/netstandard2.0/SharpFont.dll": {},
+          "runtimes/win-vulkan/lib/netstandard2.0/SharpVulkan.dll": {},
+          "runtimes/win-vulkan/lib/netstandard2.0/Xenko.Graphics.dll": {}
+        }
+      },
+      "Xenko.Input/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX.DirectInput": "4.2.0",
+          "SharpDX.RawInput": "4.2.0",
+          "SharpDX.XInput": "4.2.0",
+          "Xenko.Games": "3.3.2-beta01"
+        },
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "ref/net461/Xenko.Input.dll": {}
+        },
+        "runtime": {
+          "runtimes/win-vulkan/lib/net461/Xenko.Input.dll": {}
+        }
+      },
+      "Xenko.Irony/3.3.2-beta01": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Xenko.Irony.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xenko.Irony.dll": {}
+        }
+      },
+      "Xenko.Native/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Core.Mathematics": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Native.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/Xenko.Native.dll": {}
+        }
+      },
+      "Xenko.Navigation/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Physics": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Navigation.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/Xenko.Navigation.dll": {}
+        }
+      },
+      "Xenko.OpenTK/1.0.2": {
+        "type": "package",
+        "compile": {
+          "ref/net45/OpenTK.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/net45/OpenTK.dll": {}
+        }
+      },
+      "Xenko.Particles/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Engine": "3.3.2-beta01"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xenko.Particles.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xenko.Particles.dll": {}
+        }
+      },
+      "Xenko.Physics/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Engine": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Physics.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/BulletSharp.NetStandard.dll": {},
+          "runtimes/win/lib/netstandard2.0/Xenko.Physics.dll": {}
+        }
+      },
+      "Xenko.Rendering/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Games": "3.3.2-beta01",
+          "Xenko.Native": "3.3.2-beta01"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xenko.Rendering.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xenko.Rendering.dll": {}
+        }
+      },
+      "Xenko.Shaders/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko": "3.3.2-beta01"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xenko.Shaders.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xenko.Shaders.dll": {}
+        }
+      },
+      "Xenko.Shaders.Compiler/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX.D3DCompiler": "4.2.0",
+          "Xenko.Shaders.Parser": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Shaders.Compiler.dll": {}
+        },
+        "runtime": {
+          "runtimes/win-vulkan/lib/netstandard2.0/Xenko.Shaders.Compiler.dll": {},
+          "runtimes/win-vulkan/lib/netstandard2.0/glslangValidator.exe": {}
+        }
+      },
+      "Xenko.Shaders.Parser/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Core.Shaders": "3.3.2-beta01",
+          "Xenko.Shaders": "3.3.2-beta01"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xenko.Shaders.Parser.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xenko.Shaders.Parser.dll": {}
+        }
+      },
+      "Xenko.UI/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Engine": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.UI.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/Xenko.UI.dll": {}
+        }
+      },
+      "Xenko.Video/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "FFmpeg.AutoGen": "3.4.0.2",
+          "SharpDX.Direct3D11": "4.2.0",
+          "SharpDX.Direct3D12": "4.2.0",
+          "SharpDX.MediaFoundation": "4.2.0",
+          "Xenko.Engine": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.Video.dll": {}
+        },
+        "runtime": {
+          "runtimes/win-vulkan/lib/netstandard2.0/Xenko.Video.dll": {}
+        }
+      },
+      "Xenko.VirtualReality/3.3.2-beta01": {
+        "type": "package",
+        "dependencies": {
+          "Xenko.Games": "3.3.2-beta01",
+          "Xenko.Graphics": "3.3.2-beta01",
+          "Xenko.Input": "3.3.2-beta01"
+        },
+        "compile": {
+          "ref/netstandard2.0/Xenko.VirtualReality.dll": {}
+        },
+        "runtime": {
+          "runtimes/win-vulkan/lib/netstandard2.0/Xenko.VirtualReality.dll": {}
+        }
+      },
+      "FOVTester2/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xenko.Core.Assets.CompilerApp": "3.3.2-beta01",
+          "Xenko.Engine": "3.3.2-beta01",
+          "Xenko.Navigation": "3.3.2-beta01",
+          "Xenko.Particles": "3.3.2-beta01",
+          "Xenko.Physics": "3.3.2-beta01",
+          "Xenko.UI": "3.3.2-beta01",
+          "Xenko.Video": "3.3.2-beta01"
+        },
+        "compile": {
+          "bin/placeholder/FOVTester2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FOVTester2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FFmpeg.AutoGen/3.4.0.2": {
+      "sha512": "bf2FOfTCinlUzKT5jMILJ1dsTqi6hvMNMN6l0AUiFiR1D/zarncKLDw6Y2oMJa21gtYEXGpzQ9s1kS1AJOweIw==",
+      "type": "package",
+      "path": "ffmpeg.autogen/3.4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ffmpeg.autogen.3.4.0.2.nupkg.sha512",
+        "ffmpeg.autogen.nuspec",
+        "lib/net45/FFmpeg.AutoGen.dll",
+        "lib/net45/FFmpeg.AutoGen.xml",
+        "lib/netstandard2.0/FFmpeg.AutoGen.dll",
+        "lib/netstandard2.0/FFmpeg.AutoGen.xml"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/2.2.2": {
+      "sha512": "SbT/7qDI9u/K+UJXpsCj0po0/kqI97emqaeZZkLD6y+E8oOjoxDLVm004aQxmQ9rxWvBu17lgnMyStbwSVGcYw==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/2.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.2.2.2.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "SharpDX/4.2.0": {
+      "sha512": "3pv0LFMvfK/dv1qISJnn8xBeeT6R/FRvr0EV4KI2DGsL84Qlv6P7isWqxGyU0LCwlSVCJN3jgHJ4Bl0KI2PJww==",
+      "type": "package",
+      "path": "sharpdx/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/.xml",
+        "lib/net40/SharpDX.dll",
+        "lib/net40/SharpDX.pdb",
+        "lib/net45/.xml",
+        "lib/net45/SharpDX.dll",
+        "lib/net45/SharpDX.pdb",
+        "lib/netstandard1.1/.xml",
+        "lib/netstandard1.1/SharpDX.dll",
+        "lib/netstandard1.1/SharpDX.pdb",
+        "lib/uap10.0/.xml",
+        "lib/uap10.0/SharpDX.dll",
+        "lib/uap10.0/SharpDX.pdb",
+        "lib/uap10.0/SharpDX.pri",
+        "sharpdx.4.2.0.nupkg.sha512",
+        "sharpdx.nuspec"
+      ]
+    },
+    "SharpDX.D3DCompiler/4.2.0": {
+      "sha512": "Rnsd6Ilp127xbXqhTit8WKFQUrXwWxqVGpglyWDNkIBCk0tWXNQEjrJpsl0KAObzyZaa33+EXAikLVt5fnd3GA==",
+      "type": "package",
+      "path": "sharpdx.d3dcompiler/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.D3DCompiler.dll",
+        "lib/net40/SharpDX.D3DCompiler.pdb",
+        "lib/net40/SharpDX.D3DCompiler.xml",
+        "lib/net45/SharpDX.D3DCompiler.dll",
+        "lib/net45/SharpDX.D3DCompiler.pdb",
+        "lib/net45/SharpDX.D3DCompiler.xml",
+        "lib/netstandard1.1/SharpDX.D3DCompiler.dll",
+        "lib/netstandard1.1/SharpDX.D3DCompiler.pdb",
+        "lib/netstandard1.1/SharpDX.D3DCompiler.xml",
+        "lib/uap10.0/SharpDX.D3DCompiler.dll",
+        "lib/uap10.0/SharpDX.D3DCompiler.pdb",
+        "lib/uap10.0/SharpDX.D3DCompiler.pri",
+        "lib/uap10.0/SharpDX.D3DCompiler.xml",
+        "sharpdx.d3dcompiler.4.2.0.nupkg.sha512",
+        "sharpdx.d3dcompiler.nuspec"
+      ]
+    },
+    "SharpDX.Direct3D11/4.2.0": {
+      "sha512": "oTm/iT5X/IIuJ8kNYP+DTC/MhBhqtRF5dbgPPFgLBdQv0BKzNTzXQQXd7SveBFjQg6hXEAJ2jGCAzNYvGFc9LA==",
+      "type": "package",
+      "path": "sharpdx.direct3d11/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Direct3D11.dll",
+        "lib/net40/SharpDX.Direct3D11.pdb",
+        "lib/net40/SharpDX.Direct3D11.xml",
+        "lib/net45/SharpDX.Direct3D11.dll",
+        "lib/net45/SharpDX.Direct3D11.pdb",
+        "lib/net45/SharpDX.Direct3D11.xml",
+        "lib/netstandard1.1/SharpDX.Direct3D11.dll",
+        "lib/netstandard1.1/SharpDX.Direct3D11.pdb",
+        "lib/netstandard1.1/SharpDX.Direct3D11.xml",
+        "lib/uap10.0/SharpDX.Direct3D11.dll",
+        "lib/uap10.0/SharpDX.Direct3D11.pdb",
+        "lib/uap10.0/SharpDX.Direct3D11.pri",
+        "lib/uap10.0/SharpDX.Direct3D11.xml",
+        "sharpdx.direct3d11.4.2.0.nupkg.sha512",
+        "sharpdx.direct3d11.nuspec"
+      ]
+    },
+    "SharpDX.Direct3D12/4.2.0": {
+      "sha512": "OU4/cKRcAbGe8ZJ4oTUCDKsL5mCoy6aLJ2axYlwjyB8h/Z1OR38vSeGpbPB3ZKPumIuuYrANIBWnJ8xfUK7RQw==",
+      "type": "package",
+      "path": "sharpdx.direct3d12/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Direct3D12.dll",
+        "lib/net40/SharpDX.Direct3D12.pdb",
+        "lib/net40/SharpDX.Direct3D12.xml",
+        "lib/net45/SharpDX.Direct3D12.dll",
+        "lib/net45/SharpDX.Direct3D12.pdb",
+        "lib/net45/SharpDX.Direct3D12.xml",
+        "lib/netstandard1.1/SharpDX.Direct3D12.dll",
+        "lib/netstandard1.1/SharpDX.Direct3D12.pdb",
+        "lib/netstandard1.1/SharpDX.Direct3D12.xml",
+        "lib/uap10.0/SharpDX.Direct3D12.dll",
+        "lib/uap10.0/SharpDX.Direct3D12.pdb",
+        "lib/uap10.0/SharpDX.Direct3D12.pri",
+        "lib/uap10.0/SharpDX.Direct3D12.xml",
+        "sharpdx.direct3d12.4.2.0.nupkg.sha512",
+        "sharpdx.direct3d12.nuspec"
+      ]
+    },
+    "SharpDX.Direct3D9/4.2.0": {
+      "sha512": "1KgqXvPj/j5hLYxfcOQoJdHskamu7EWg60n9LBAYhun7dR+sKS0ZDNb7NuKwFP1bM0HZqvokjXQIf3oA2NpdqA==",
+      "type": "package",
+      "path": "sharpdx.direct3d9/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Direct3D9.dll",
+        "lib/net40/SharpDX.Direct3D9.pdb",
+        "lib/net40/SharpDX.Direct3D9.xml",
+        "lib/net45/SharpDX.Direct3D9.dll",
+        "lib/net45/SharpDX.Direct3D9.pdb",
+        "lib/net45/SharpDX.Direct3D9.xml",
+        "lib/netstandard1.3/SharpDX.Direct3D9.dll",
+        "lib/netstandard1.3/SharpDX.Direct3D9.pdb",
+        "lib/netstandard1.3/SharpDX.Direct3D9.xml",
+        "sharpdx.direct3d9.4.2.0.nupkg.sha512",
+        "sharpdx.direct3d9.nuspec"
+      ]
+    },
+    "SharpDX.DirectInput/4.2.0": {
+      "sha512": "is6Lm9zULyeTbUaLXktF+MwzmUYE8jofhA+6qgR1HBIyRJ/c2rZbeG1VvvGf4w6ktfq/q3AvUWTNzwgdU/+XOg==",
+      "type": "package",
+      "path": "sharpdx.directinput/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.DirectInput.dll",
+        "lib/net40/SharpDX.DirectInput.pdb",
+        "lib/net40/SharpDX.DirectInput.xml",
+        "lib/net45/SharpDX.DirectInput.dll",
+        "lib/net45/SharpDX.DirectInput.pdb",
+        "lib/net45/SharpDX.DirectInput.xml",
+        "lib/netstandard1.3/SharpDX.DirectInput.dll",
+        "lib/netstandard1.3/SharpDX.DirectInput.pdb",
+        "lib/netstandard1.3/SharpDX.DirectInput.xml",
+        "sharpdx.directinput.4.2.0.nupkg.sha512",
+        "sharpdx.directinput.nuspec"
+      ]
+    },
+    "SharpDX.DXGI/4.2.0": {
+      "sha512": "UjKqkgWc8U+SP+j3LBzFP6OB6Ntapjih7Xo+g1rLcsGbIb5KwewBrBChaUu7sil8rWoeVU/k0EJd3SMN4VqNZw==",
+      "type": "package",
+      "path": "sharpdx.dxgi/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.DXGI.dll",
+        "lib/net40/SharpDX.DXGI.pdb",
+        "lib/net40/SharpDX.DXGI.xml",
+        "lib/net45/SharpDX.DXGI.dll",
+        "lib/net45/SharpDX.DXGI.pdb",
+        "lib/net45/SharpDX.DXGI.xml",
+        "lib/netstandard1.1/SharpDX.DXGI.dll",
+        "lib/netstandard1.1/SharpDX.DXGI.pdb",
+        "lib/netstandard1.1/SharpDX.DXGI.xml",
+        "lib/uap10.0/SharpDX.DXGI.dll",
+        "lib/uap10.0/SharpDX.DXGI.pdb",
+        "lib/uap10.0/SharpDX.DXGI.pri",
+        "lib/uap10.0/SharpDX.DXGI.xml",
+        "sharpdx.dxgi.4.2.0.nupkg.sha512",
+        "sharpdx.dxgi.nuspec"
+      ]
+    },
+    "SharpDX.Mathematics/4.2.0": {
+      "sha512": "R2pcKLgdsP9p5WyTjHmGOZ0ka0zASAZYc6P4L6rSvjYhf6klGYbent7MiVwbkwkt9dD44p5brjy5IwAnVONWGw==",
+      "type": "package",
+      "path": "sharpdx.mathematics/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Mathematics.dll",
+        "lib/net40/SharpDX.Mathematics.pdb",
+        "lib/net40/SharpDX.Mathematics.xml",
+        "lib/net45/SharpDX.Mathematics.dll",
+        "lib/net45/SharpDX.Mathematics.pdb",
+        "lib/net45/SharpDX.Mathematics.xml",
+        "lib/netstandard1.1/SharpDX.Mathematics.dll",
+        "lib/netstandard1.1/SharpDX.Mathematics.pdb",
+        "lib/netstandard1.1/SharpDX.Mathematics.xml",
+        "lib/uap10.0/SharpDX.Mathematics.dll",
+        "lib/uap10.0/SharpDX.Mathematics.pdb",
+        "lib/uap10.0/SharpDX.Mathematics.pri",
+        "lib/uap10.0/SharpDX.Mathematics.xml",
+        "sharpdx.mathematics.4.2.0.nupkg.sha512",
+        "sharpdx.mathematics.nuspec"
+      ]
+    },
+    "SharpDX.MediaFoundation/4.2.0": {
+      "sha512": "HRf6EU+LyqZN7pETlVhxKkpz2E2p9oGPgFcCZ0t7+S6gnrE9qw49Po69t2YeWo6/MT3APh2Fja7hLNB6Yq36cg==",
+      "type": "package",
+      "path": "sharpdx.mediafoundation/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.MediaFoundation.dll",
+        "lib/net40/SharpDX.MediaFoundation.pdb",
+        "lib/net40/SharpDX.MediaFoundation.xml",
+        "lib/net45/SharpDX.MediaFoundation.dll",
+        "lib/net45/SharpDX.MediaFoundation.pdb",
+        "lib/net45/SharpDX.MediaFoundation.xml",
+        "lib/netstandard1.1/SharpDX.MediaFoundation.dll",
+        "lib/netstandard1.1/SharpDX.MediaFoundation.pdb",
+        "lib/netstandard1.1/SharpDX.MediaFoundation.xml",
+        "lib/uap10.0/SharpDX.MediaFoundation.dll",
+        "lib/uap10.0/SharpDX.MediaFoundation.pdb",
+        "lib/uap10.0/SharpDX.MediaFoundation.pri",
+        "lib/uap10.0/SharpDX.MediaFoundation.xml",
+        "sharpdx.mediafoundation.4.2.0.nupkg.sha512",
+        "sharpdx.mediafoundation.nuspec"
+      ]
+    },
+    "SharpDX.RawInput/4.2.0": {
+      "sha512": "giUwSLrOaMiiFE2OobsXnwIq6P21KbNWo5YYJ4azGRX3qBCsiQ9HcuwqFA195Xe3RNEqYUwzx3eTvxbHrCodyg==",
+      "type": "package",
+      "path": "sharpdx.rawinput/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.RawInput.dll",
+        "lib/net40/SharpDX.RawInput.pdb",
+        "lib/net40/SharpDX.RawInput.xml",
+        "lib/net45/SharpDX.RawInput.dll",
+        "lib/net45/SharpDX.RawInput.pdb",
+        "lib/net45/SharpDX.RawInput.xml",
+        "sharpdx.rawinput.4.2.0.nupkg.sha512",
+        "sharpdx.rawinput.nuspec"
+      ]
+    },
+    "SharpDX.XInput/4.2.0": {
+      "sha512": "mH3soea+aVUaTuFrkwx+zohklDvCczcgtuTiZJbOCyS5GZ/F9se4BsRJ86xTA9baf0drXYbZQj152PN7lnjiwg==",
+      "type": "package",
+      "path": "sharpdx.xinput/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.XInput.dll",
+        "lib/net40/SharpDX.XInput.pdb",
+        "lib/net40/SharpDX.XInput.xml",
+        "lib/net45/SharpDX.XInput.dll",
+        "lib/net45/SharpDX.XInput.pdb",
+        "lib/net45/SharpDX.XInput.xml",
+        "lib/netstandard1.1/SharpDX.XInput.dll",
+        "lib/netstandard1.1/SharpDX.XInput.pdb",
+        "lib/netstandard1.1/SharpDX.XInput.xml",
+        "lib/uap10.0/SharpDX.XInput.dll",
+        "lib/uap10.0/SharpDX.XInput.pdb",
+        "lib/uap10.0/SharpDX.XInput.pri",
+        "lib/uap10.0/SharpDX.XInput.xml",
+        "sharpdx.xinput.4.2.0.nupkg.sha512",
+        "sharpdx.xinput.nuspec"
+      ]
+    },
+    "System.Drawing.Common/4.5.1": {
+      "sha512": "GiyeGi/v4xYDz1vCNFwFvhz9k1XddOG7VD3jxRqzRBCbTHji+s3HxxbxtoymuK4OadEpgotI8zQ5+GEEH9sUEQ==",
+      "type": "package",
+      "path": "system.drawing.common/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Drawing.Common.dll",
+        "ref/netstandard2.0/System.Drawing.Common.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "system.drawing.common.4.5.1.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Threading.Tasks.Dataflow/4.7.0": {
+      "sha512": "wcKLDI8tN5KpcMcTQwXfcLHrFdfINIxDBOZS3rE8QqOds/0fRhCkR+IEfQokxT7s/Yluqk+LG/ZqZdQmA/xgCw==",
+      "type": "package",
+      "path": "system.threading.tasks.dataflow/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/System.Threading.Tasks.Dataflow.XML",
+        "lib/netstandard1.0/System.Threading.Tasks.Dataflow.dll",
+        "lib/netstandard1.1/System.Threading.Tasks.Dataflow.XML",
+        "lib/netstandard1.1/System.Threading.Tasks.Dataflow.dll",
+        "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.XML",
+        "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.dll",
+        "system.threading.tasks.dataflow.4.7.0.nupkg.sha512",
+        "system.threading.tasks.dataflow.nuspec"
+      ]
+    },
+    "System.ValueTuple/4.4.0": {
+      "sha512": "BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net461/System.ValueTuple.xml",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.4.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Xenko/3.3.2-beta01": {
+      "sha512": "eh0eZLKokknUdTcQ0Df8nBjcamyOarSNAG9/orLnGx97xFi7phpbWBG+Cg97mDCl/+8+74gjqKo9vq+aznVyhQ==",
+      "type": "package",
+      "path": "xenko/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netstandard2.0/Xenko.dll",
+        "lib/netstandard2.0/Xenko.pdb",
+        "runtime.json",
+        "xenko.3.3.2-beta01.nupkg.sha512",
+        "xenko.nuspec"
+      ]
+    },
+    "Xenko.Audio/3.3.2-beta01": {
+      "sha512": "7ThMbWFXBq0bmWdSUHLkx7/1RCeQCCC/rsAD+Pb7LsHG7SD3fzp3hukTcu5Nz9cPjowOn7odPgzR7qOp/xFBiw==",
+      "type": "package",
+      "path": "xenko.audio/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "ref/netstandard2.0/Xenko.Audio.dll",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Audio.dll",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Audio.dll.config",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Audio.pdb",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Audio.ssdeps",
+        "runtimes/linux/lib/netstandard2.0/libxenkoaudio.so",
+        "runtimes/osx/lib/netstandard2.0/Xenko.Audio.dll",
+        "runtimes/osx/lib/netstandard2.0/Xenko.Audio.pdb",
+        "runtimes/osx/lib/netstandard2.0/Xenko.Audio.ssdeps",
+        "runtimes/osx/lib/netstandard2.0/libxenkoaudio.dylib",
+        "runtimes/win/lib/netstandard2.0/Xenko.Audio.dll",
+        "runtimes/win/lib/netstandard2.0/Xenko.Audio.pdb",
+        "runtimes/win/lib/netstandard2.0/Xenko.Audio.ssdeps",
+        "runtimes/win/lib/netstandard2.0/x64/libxenkoaudio.dll",
+        "runtimes/win/lib/netstandard2.0/x86/libxenkoaudio.dll",
+        "xenko.audio.3.3.2-beta01.nupkg.sha512",
+        "xenko.audio.nuspec"
+      ]
+    },
+    "Xenko.Core/3.3.2-beta01": {
+      "sha512": "2FDZGqn9UgEeBSXQeFjlsq5l2VTFw9UTKIOW4N3p9GqREGiFcqf3hzRedwUr/v126p5OpM320xz4egWhG/idXQ==",
+      "type": "package",
+      "path": "xenko.core/3.3.2-beta01",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        "build/Xenko.Core.props",
+        "build/Xenko.Core.targets",
+        "buildTransitive/Xenko.Core.props",
+        "buildTransitive/Xenko.Core.targets",
+        "ref/netstandard2.0/Xenko.Core.dll",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Core.dll",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Core.dll.config",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Core.pdb",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Core.ssdeps",
+        "runtimes/linux/lib/netstandard2.0/libcore.so",
+        "runtimes/osx/lib/netstandard2.0/Xenko.Core.dll",
+        "runtimes/osx/lib/netstandard2.0/Xenko.Core.pdb",
+        "runtimes/osx/lib/netstandard2.0/Xenko.Core.ssdeps",
+        "runtimes/osx/lib/netstandard2.0/libcore.dylib",
+        "runtimes/win/lib/netstandard2.0/Xenko.Core.dll",
+        "runtimes/win/lib/netstandard2.0/Xenko.Core.pdb",
+        "runtimes/win/lib/netstandard2.0/Xenko.Core.ssdeps",
+        "runtimes/win/lib/netstandard2.0/x64/libcore.dll",
+        "runtimes/win/lib/netstandard2.0/x86/libcore.dll",
+        "tools/AssemblyProcessor/.gitignore",
+        "tools/AssemblyProcessor/Mono.Cecil.Mdb.dll",
+        "tools/AssemblyProcessor/Mono.Cecil.Pdb.dll",
+        "tools/AssemblyProcessor/Mono.Cecil.Rocks.dll",
+        "tools/AssemblyProcessor/Mono.Cecil.dll",
+        "tools/AssemblyProcessor/Mono.Options.dll",
+        "tools/AssemblyProcessor/README.md",
+        "tools/AssemblyProcessor/System.ValueTuple.dll",
+        "tools/AssemblyProcessor/Xenko.Core.AssemblyProcessor.Packed2.exe",
+        "tools/AssemblyProcessor/Xenko.Core.AssemblyProcessor.Packed2.exe.config",
+        "tools/AssemblyProcessor/Xenko.Core.AssemblyProcessor.Packed2.pdb",
+        "tools/AssemblyProcessor/Xenko.Core.AssemblyProcessor.exe",
+        "tools/AssemblyProcessor/Xenko.Core.AssemblyProcessor.exe.config",
+        "tools/AssemblyProcessor/Xenko.Core.AssemblyProcessor.pdb",
+        "xenko.core.3.3.2-beta01.nupkg.sha512",
+        "xenko.core.nuspec"
+      ]
+    },
+    "Xenko.Core.Assets.CompilerApp/3.3.2-beta01": {
+      "sha512": "t3PFLuiwi1FaL9qfZ8Hp7DHqPtUiQJg+7A6+vVZCZF6B1n9SZxurwhl8E9HUSqNXc6gFK+Wlu4GiBlEMZCK9Eg==",
+      "type": "package",
+      "path": "xenko.core.assets.compilerapp/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "build/Xenko.Core.Assets.CompilerApp.targets",
+        "buildTransitive/Xenko.Core.Assets.CompilerApp.targets",
+        "lib/net48/Newtonsoft.Json.dll",
+        "lib/net48/NuGet.Commands.dll",
+        "lib/net48/NuGet.Common.dll",
+        "lib/net48/NuGet.Configuration.dll",
+        "lib/net48/NuGet.Credentials.dll",
+        "lib/net48/NuGet.DependencyResolver.Core.dll",
+        "lib/net48/NuGet.Frameworks.dll",
+        "lib/net48/NuGet.LibraryModel.dll",
+        "lib/net48/NuGet.PackageManagement.dll",
+        "lib/net48/NuGet.Packaging.dll",
+        "lib/net48/NuGet.ProjectModel.dll",
+        "lib/net48/NuGet.Protocol.dll",
+        "lib/net48/NuGet.Resolver.dll",
+        "lib/net48/NuGet.Versioning.dll",
+        "lib/net48/System.ValueTuple.dll",
+        "lib/net48/Xenko.Core.Assets.CompilerApp.exe",
+        "lib/net48/Xenko.Core.Assets.CompilerApp.exe.config",
+        "lib/net48/Xenko.Core.Assets.CompilerApp.pdb",
+        "xenko.core.assets.compilerapp.3.3.2-beta01.nupkg.sha512",
+        "xenko.core.assets.compilerapp.nuspec"
+      ]
+    },
+    "Xenko.Core.IO/3.3.2-beta01": {
+      "sha512": "kS9LDgtTtU/PHtAAd9OlQsiWaf7hAtgiUseqqN0rd+Y7uWnA/jiiP0l7OEMoQidlIsTBLN78kB4Otnmq+zPS6w==",
+      "type": "package",
+      "path": "xenko.core.io/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "ref/netstandard2.0/Xenko.Core.IO.dll",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Core.IO.dll",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Core.IO.pdb",
+        "runtimes/osx/lib/netstandard2.0/Xenko.Core.IO.dll",
+        "runtimes/osx/lib/netstandard2.0/Xenko.Core.IO.pdb",
+        "runtimes/win/lib/netstandard2.0/Xenko.Core.IO.dll",
+        "runtimes/win/lib/netstandard2.0/Xenko.Core.IO.pdb",
+        "xenko.core.io.3.3.2-beta01.nupkg.sha512",
+        "xenko.core.io.nuspec"
+      ]
+    },
+    "Xenko.Core.Mathematics/3.3.2-beta01": {
+      "sha512": "ZluaWUe05KAf8SvwHZ9g+xl0mUbkgdLQ0nxOWoNYltLICpYzzVd4x32OxODHp9QcgxNBmgY16mfpyWQ74iKnzQ==",
+      "type": "package",
+      "path": "xenko.core.mathematics/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netstandard2.0/Xenko.Core.Mathematics.dll",
+        "lib/netstandard2.0/Xenko.Core.Mathematics.pdb",
+        "lib/netstandard2.0/Xenko.Core.Mathematics.usrdoc",
+        "lib/netstandard2.0/Xenko.Core.Mathematics.xml",
+        "xenko.core.mathematics.3.3.2-beta01.nupkg.sha512",
+        "xenko.core.mathematics.nuspec"
+      ]
+    },
+    "Xenko.Core.MicroThreading/3.3.2-beta01": {
+      "sha512": "nwwfT9iz0a+Aqn4T+uvrkHVC6/7M5DsTCcVIpT/PLkt1950NMImcAVsZlzaQlrOtaI6SqiNqz/kAtQMskUmK9w==",
+      "type": "package",
+      "path": "xenko.core.microthreading/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netstandard2.0/Xenko.Core.MicroThreading.dll",
+        "lib/netstandard2.0/Xenko.Core.MicroThreading.pdb",
+        "xenko.core.microthreading.3.3.2-beta01.nupkg.sha512",
+        "xenko.core.microthreading.nuspec"
+      ]
+    },
+    "Xenko.Core.Serialization/3.3.2-beta01": {
+      "sha512": "rF2WKAhWIMSNffNvTTm4FP+3Alw+i5OMgMtxgfuPDQyFtrqXqv7khXNUNcgjjprbOqsbOvAhVhoIyWaNwGTiMQ==",
+      "type": "package",
+      "path": "xenko.core.serialization/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netstandard2.0/Xenko.Core.Serialization.dll",
+        "lib/netstandard2.0/Xenko.Core.Serialization.pdb",
+        "xenko.core.serialization.3.3.2-beta01.nupkg.sha512",
+        "xenko.core.serialization.nuspec"
+      ]
+    },
+    "Xenko.Core.Shaders/3.3.2-beta01": {
+      "sha512": "RUyNOYoftz7Foe6e8Os5fQZWOolNOBKeiuhhS2Lgs8jGO7AWGwMjx1ZXD0laBX8fknEfobhbtrshkvJe46x9gA==",
+      "type": "package",
+      "path": "xenko.core.shaders/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netstandard2.0/CppNet.dll",
+        "lib/netstandard2.0/Xenko.Core.Shaders.dll",
+        "lib/netstandard2.0/Xenko.Core.Shaders.pdb",
+        "xenko.core.shaders.3.3.2-beta01.nupkg.sha512",
+        "xenko.core.shaders.nuspec"
+      ]
+    },
+    "Xenko.Engine/3.3.2-beta01": {
+      "sha512": "U145pmpuzDCkOlwEGM6cXBEuJCOzlkA+onvhrldfco4eh1/9KFTxJCv3JXigFdMXHjvgx2r2M6xG72S89G/IHA==",
+      "type": "package",
+      "path": "xenko.engine/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "ref/netstandard2.0/Xenko.Engine.dll",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Engine.dll",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Engine.pdb",
+        "runtimes/osx/lib/netstandard2.0/Xenko.Engine.dll",
+        "runtimes/osx/lib/netstandard2.0/Xenko.Engine.pdb",
+        "runtimes/win/lib/netstandard2.0/Xenko.Engine.dll",
+        "runtimes/win/lib/netstandard2.0/Xenko.Engine.pdb",
+        "xenko.engine.3.3.2-beta01.nupkg.sha512",
+        "xenko.engine.nuspec",
+        "xenko/Assets/DefaultGraphicsCompositorLevel10.xkgfxcomp",
+        "xenko/Assets/DefaultGraphicsCompositorLevel9.xkgfxcomp",
+        "xenko/Assets/XenkoClearCoatMetalFlakesNM.xktex",
+        "xenko/Assets/XenkoClearCoatOrangePeelNM.xktex",
+        "xenko/Assets/XenkoDebugSpriteFont.xktex",
+        "xenko/Assets/XenkoDefaultFont.xkfnt",
+        "xenko/Assets/XenkoDefaultSplashScreen.xktex",
+        "xenko/Assets/XenkoEnvironmentLightingDFGLUT16.xktex",
+        "xenko/Assets/XenkoEnvironmentLightingDFGLUT8.xktex",
+        "xenko/Assets/XenkoUIDesigns.xksheet",
+        "xenko/Assets/XenkoUILibrary.xkuilib",
+        "xenko/Resources/ClearCoatMetalFlakesNM.dds",
+        "xenko/Resources/ClearCoatOrangePeelNM.dds",
+        "xenko/Resources/EnvironmentLightingDFGLUT16.dds",
+        "xenko/Resources/EnvironmentLightingDFGLUT8.dds",
+        "xenko/Resources/UIDesigns.dds",
+        "xenko/Resources/XenkoDebugSpriteFont.png",
+        "xenko/Resources/XenkoDefaultSplashScreen.png",
+        "xenko/Xenko.Engine.xkpkg"
+      ]
+    },
+    "Xenko.Games/3.3.2-beta01": {
+      "sha512": "zlqOCiJqJzJyeKT175vGqGIeERYa8sAbHfNml8nSDynRknpJVYwa9M2kSSs/FGf60DT3tqYtTsDeJuJiuu6XYQ==",
+      "type": "package",
+      "path": "xenko.games/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "content/Resources/Logo.ico",
+        "contentFiles/any/net461/Resources/Logo.ico",
+        "contentFiles/any/netstandard2.0/Resources/Logo.ico",
+        "ref/net461/Xenko.Games.dll",
+        "ref/netstandard2.0/Xenko.Games.dll",
+        "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.Games.dll",
+        "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.Games.pdb",
+        "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.Games.dll",
+        "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.Games.pdb",
+        "runtimes/win-d3d11/lib/net461/Xenko.Games.dll",
+        "runtimes/win-d3d11/lib/net461/Xenko.Games.pdb",
+        "runtimes/win-d3d11/lib/netstandard2.0/Xenko.Games.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/Xenko.Games.pdb",
+        "runtimes/win-vulkan/lib/net461/Xenko.Games.dll",
+        "runtimes/win-vulkan/lib/net461/Xenko.Games.pdb",
+        "runtimes/win-vulkan/lib/netstandard2.0/Xenko.Games.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/Xenko.Games.pdb",
+        "xenko.games.3.3.2-beta01.nupkg.sha512",
+        "xenko.games.nuspec"
+      ]
+    },
+    "Xenko.Graphics/3.3.2-beta01": {
+      "sha512": "qMtLQUEUF1Ci4QcaG7Vw2yrwYCoglHfulmEhd/PDqKDPa8QZnOzavCcEbe/R+F4BznRHXH0fE+niXsVkshJJ6Q==",
+      "type": "package",
+      "path": "xenko.graphics/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "ref/netstandard2.0/Xenko.Graphics.dll",
+        "runtimes/linux-vulkan/lib/netstandard2.0/SDL2-CS.dll",
+        "runtimes/linux-vulkan/lib/netstandard2.0/SharpFont.dll",
+        "runtimes/linux-vulkan/lib/netstandard2.0/SharpVulkan.dll",
+        "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.Graphics.dll",
+        "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.Graphics.pdb",
+        "runtimes/osx-vulkan/lib/netstandard2.0/SDL2-CS.dll",
+        "runtimes/osx-vulkan/lib/netstandard2.0/SharpFont.dll",
+        "runtimes/osx-vulkan/lib/netstandard2.0/SharpVulkan.dll",
+        "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.Graphics.dll",
+        "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.Graphics.pdb",
+        "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.Graphics.ssdeps",
+        "runtimes/osx-vulkan/lib/netstandard2.0/libSDL2.dylib",
+        "runtimes/osx-vulkan/lib/netstandard2.0/libfreetype.dylib",
+        "runtimes/osx-vulkan/lib/netstandard2.0/libvulkan.1.dylib",
+        "runtimes/win-d3d11/lib/netstandard2.0/SDL2-CS.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/SharpFont.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/Xenko.Graphics.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/Xenko.Graphics.pdb",
+        "runtimes/win-d3d11/lib/netstandard2.0/Xenko.Graphics.ssdeps",
+        "runtimes/win-d3d11/lib/netstandard2.0/x64/SDL2.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x64/freetype.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x64/freetype.pdb",
+        "runtimes/win-d3d11/lib/netstandard2.0/x86/SDL2.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x86/freetype.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x86/freetype.pdb",
+        "runtimes/win-vulkan/lib/netstandard2.0/SDL2-CS.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/SharpFont.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/SharpVulkan.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/Xenko.Graphics.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/Xenko.Graphics.pdb",
+        "runtimes/win-vulkan/lib/netstandard2.0/Xenko.Graphics.ssdeps",
+        "runtimes/win-vulkan/lib/netstandard2.0/x64/SDL2.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x64/freetype.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x64/freetype.pdb",
+        "runtimes/win-vulkan/lib/netstandard2.0/x86/SDL2.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x86/freetype.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x86/freetype.pdb",
+        "xenko.graphics.3.3.2-beta01.nupkg.sha512",
+        "xenko.graphics.nuspec",
+        "xenko/Assets/ColorUtility.xksl",
+        "xenko/Assets/ShaderBase.xksl",
+        "xenko/Assets/ShaderBaseStream.xksl",
+        "xenko/Assets/SignedDistanceFieldFont.xksl",
+        "xenko/Assets/SignedDistanceFieldFontShader.xksl",
+        "xenko/Assets/SpriteAlphaCutoff.xksl",
+        "xenko/Assets/SpriteBase.xksl",
+        "xenko/Assets/SpriteBatch.xkfx",
+        "xenko/Assets/SpriteBatchShader.xksl",
+        "xenko/Assets/SpriteEffect.xksl",
+        "xenko/Assets/SpriteEffectExtTexture.xksl",
+        "xenko/Assets/SpriteEffectExtTextureRegular.xksl",
+        "xenko/Assets/SpriteSignedDistanceFieldFontShader.xksl",
+        "xenko/Assets/SpriteSuperSampler.xksl",
+        "xenko/Assets/Texturing.xksl",
+        "xenko/Assets/UIEffect.xkfx",
+        "xenko/Assets/UIEffectShader.xksl",
+        "xenko/Xenko.Graphics.xkpkg"
+      ]
+    },
+    "Xenko.Input/3.3.2-beta01": {
+      "sha512": "4zA45g8H/RD4Tj4qyLFusmlnqmHJW6SRv6N3XGkL5AgQIVEJOn3xX2Sm+zymuIL3K8HQYg4ru7O45dVeJ+xnkw==",
+      "type": "package",
+      "path": "xenko.input/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "ref/net461/Xenko.Input.dll",
+        "ref/netstandard2.0/Xenko.Input.dll",
+        "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.Input.dll",
+        "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.Input.pdb",
+        "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.Input.dll",
+        "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.Input.pdb",
+        "runtimes/win-d3d11/lib/net461/Xenko.Input.dll",
+        "runtimes/win-d3d11/lib/net461/Xenko.Input.pdb",
+        "runtimes/win-d3d11/lib/netstandard2.0/Xenko.Input.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/Xenko.Input.pdb",
+        "runtimes/win-vulkan/lib/net461/Xenko.Input.dll",
+        "runtimes/win-vulkan/lib/net461/Xenko.Input.pdb",
+        "runtimes/win-vulkan/lib/netstandard2.0/Xenko.Input.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/Xenko.Input.pdb",
+        "xenko.input.3.3.2-beta01.nupkg.sha512",
+        "xenko.input.nuspec"
+      ]
+    },
+    "Xenko.Irony/3.3.2-beta01": {
+      "sha512": "wJVug0LliqhlwIFQredgSQEcHjXScesoufa6TwZfni/wJs/9yXBs0YU4otOGSmhLqsNgTLlwrUJl0ttKr1as4g==",
+      "type": "package",
+      "path": "xenko.irony/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netstandard2.0/Xenko.Irony.dll",
+        "lib/netstandard2.0/Xenko.Irony.pdb",
+        "xenko.irony.3.3.2-beta01.nupkg.sha512",
+        "xenko.irony.nuspec"
+      ]
+    },
+    "Xenko.Native/3.3.2-beta01": {
+      "sha512": "bZNx8TFn9sYpIWaZ63YD7dGPRQLN/OGZXXi7rtl/hlSMYirv6L94fIGteK6f83M6lz4Bg/vxJhtF4Gj+DT6yIw==",
+      "type": "package",
+      "path": "xenko.native/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "ref/netstandard2.0/Xenko.Native.dll",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Native.dll",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Native.dll.config",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Native.pdb",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Native.ssdeps",
+        "runtimes/linux/lib/netstandard2.0/libxenko.so",
+        "runtimes/osx/lib/netstandard2.0/Xenko.Native.dll",
+        "runtimes/osx/lib/netstandard2.0/Xenko.Native.pdb",
+        "runtimes/osx/lib/netstandard2.0/Xenko.Native.ssdeps",
+        "runtimes/osx/lib/netstandard2.0/libxenko.dylib",
+        "runtimes/win/lib/netstandard2.0/Xenko.Native.dll",
+        "runtimes/win/lib/netstandard2.0/Xenko.Native.pdb",
+        "runtimes/win/lib/netstandard2.0/Xenko.Native.ssdeps",
+        "runtimes/win/lib/netstandard2.0/x64/libxenko.dll",
+        "runtimes/win/lib/netstandard2.0/x86/libxenko.dll",
+        "xenko.native.3.3.2-beta01.nupkg.sha512",
+        "xenko.native.nuspec"
+      ]
+    },
+    "Xenko.Navigation/3.3.2-beta01": {
+      "sha512": "IJ8RciBjeNFNiBmwehEJZ+X8NxJmuLhDSy4rhUGoOXYPBnrOc9LbsHAf97zHDdUnniV9EdciTkixCXsx9C8XrQ==",
+      "type": "package",
+      "path": "xenko.navigation/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "ref/netstandard2.0/Xenko.Navigation.dll",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Navigation.dll",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Navigation.pdb",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Navigation.ssdeps",
+        "runtimes/linux/lib/netstandard2.0/libxenkonavigation.so",
+        "runtimes/osx/lib/netstandard2.0/Xenko.Navigation.dll",
+        "runtimes/osx/lib/netstandard2.0/Xenko.Navigation.pdb",
+        "runtimes/osx/lib/netstandard2.0/Xenko.Navigation.ssdeps",
+        "runtimes/osx/lib/netstandard2.0/libxenkonavigation.dylib",
+        "runtimes/win/lib/netstandard2.0/Xenko.Navigation.dll",
+        "runtimes/win/lib/netstandard2.0/Xenko.Navigation.pdb",
+        "runtimes/win/lib/netstandard2.0/Xenko.Navigation.ssdeps",
+        "runtimes/win/lib/netstandard2.0/x64/libxenkonavigation.dll",
+        "runtimes/win/lib/netstandard2.0/x86/libxenkonavigation.dll",
+        "xenko.navigation.3.3.2-beta01.nupkg.sha512",
+        "xenko.navigation.nuspec"
+      ]
+    },
+    "Xenko.OpenTK/1.0.2": {
+      "sha512": "qv3OVOJslyJ9PKXwZo4xdvkukIUQAV5Aw8pKRVWglSIzm3OeXVpgTZVYWkn/Bj9T2vKMQWHXVwxYWJFKqOhI5Q==",
+      "type": "package",
+      "path": "xenko.opentk/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid50/OpenTK-1.1.dll",
+        "lib/netstandard2.0/OpenTK.dll",
+        "lib/xamarinios10/OpenTK-1.1.dll",
+        "ref/net45/OpenTK.dll",
+        "runtimes/win/lib/net45/OpenTK.dll",
+        "xenko.opentk.1.0.2.nupkg.sha512",
+        "xenko.opentk.nuspec"
+      ]
+    },
+    "Xenko.Particles/3.3.2-beta01": {
+      "sha512": "m3kCW1lmaHnz6WSX+nGx9DTcZHI+ajGUHf9OreezB8AvipZZpVU58NEcoF5u7HZx3rvGP0YpXrI7n0Uj4khjUQ==",
+      "type": "package",
+      "path": "xenko.particles/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netstandard2.0/Xenko.Particles.dll",
+        "lib/netstandard2.0/Xenko.Particles.pdb",
+        "xenko.particles.3.3.2-beta01.nupkg.sha512",
+        "xenko.particles.nuspec",
+        "xenko/Assets/ComputeColorWhite.xksl",
+        "xenko/Assets/ParticleBase.xksl",
+        "xenko/Assets/ParticleBaseEffect.xkfx",
+        "xenko/Assets/ParticleColor.xksl",
+        "xenko/Assets/ParticleColorStream.xksl",
+        "xenko/Assets/ParticleComputeColorShader.xksl",
+        "xenko/Assets/ParticleEffect.xkfx",
+        "xenko/Assets/ParticleUtilities.xksl",
+        "xenko/Xenko.Particles.xkpkg"
+      ]
+    },
+    "Xenko.Physics/3.3.2-beta01": {
+      "sha512": "W1Zw0Uvv6220NfcBKrcNIOC6XNy/gKhez9+LibP7qNKZLcXiOIQCEPaHhqYjvAArXEx8SdnuQauBe1bq4XYetA==",
+      "type": "package",
+      "path": "xenko.physics/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "ref/netstandard2.0/Xenko.Physics.dll",
+        "runtimes/linux/lib/netstandard2.0/BulletSharp.NetStandard.dll",
+        "runtimes/linux/lib/netstandard2.0/BulletSharp.NetStandard.dll.config",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Physics.dll",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Physics.pdb",
+        "runtimes/linux/lib/netstandard2.0/Xenko.Physics.ssdeps",
+        "runtimes/linux/lib/netstandard2.0/libbulletc.so",
+        "runtimes/osx/lib/netstandard2.0/BulletSharp.NetStandard.dll",
+        "runtimes/osx/lib/netstandard2.0/Xenko.Physics.dll",
+        "runtimes/osx/lib/netstandard2.0/Xenko.Physics.pdb",
+        "runtimes/osx/lib/netstandard2.0/Xenko.Physics.ssdeps",
+        "runtimes/osx/lib/netstandard2.0/libbulletc.dylib",
+        "runtimes/win/lib/netstandard2.0/BulletSharp.NetStandard.dll",
+        "runtimes/win/lib/netstandard2.0/Xenko.Physics.dll",
+        "runtimes/win/lib/netstandard2.0/Xenko.Physics.pdb",
+        "runtimes/win/lib/netstandard2.0/Xenko.Physics.ssdeps",
+        "runtimes/win/lib/netstandard2.0/x64/libbulletc.dll",
+        "runtimes/win/lib/netstandard2.0/x86/libbulletc.dll",
+        "xenko.physics.3.3.2-beta01.nupkg.sha512",
+        "xenko.physics.nuspec"
+      ]
+    },
+    "Xenko.Rendering/3.3.2-beta01": {
+      "sha512": "pyfpiBOTb6aUd+SwBsGm74Qj++mx8S75x9FSGOsjr4xttXlEHSOfDbqMVoIePE//yFk2iiFafhMst8DwoC03Ww==",
+      "type": "package",
+      "path": "xenko.rendering/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netstandard2.0/Xenko.Rendering.dll",
+        "lib/netstandard2.0/Xenko.Rendering.pdb",
+        "xenko.rendering.3.3.2-beta01.nupkg.sha512",
+        "xenko.rendering.nuspec",
+        "xenko/Assets/BRDF/BRDFMicrofacet.xksl",
+        "xenko/Assets/Background/BackgroundCubemapShader.xksl",
+        "xenko/Assets/Background/BackgroundShader.xksl",
+        "xenko/Assets/Compositing/MSAADepthResolverShader.xksl",
+        "xenko/Assets/Compositing/MSAAResolverEffect.xkfx",
+        "xenko/Assets/Compositing/MSAAResolverShader.xksl",
+        "xenko/Assets/ComputeEffect/ComputeEffectShader.xkfx",
+        "xenko/Assets/ComputeEffect/ComputeShaderBase.xksl",
+        "xenko/Assets/ComputeEffect/GGXPrefiltering/Hammersley.xksl",
+        "xenko/Assets/ComputeEffect/GGXPrefiltering/ImportanceSamplingGGX.xksl",
+        "xenko/Assets/ComputeEffect/GGXPrefiltering/RadiancePrefilteringGGXEffect.xkfx",
+        "xenko/Assets/ComputeEffect/GGXPrefiltering/RadiancePrefilteringGGXNoComputeEffect.xkfx",
+        "xenko/Assets/ComputeEffect/GGXPrefiltering/RadiancePrefilteringGGXNoComputeShader.xksl",
+        "xenko/Assets/ComputeEffect/GGXPrefiltering/RadiancePrefilteringGGXShader.xksl",
+        "xenko/Assets/ComputeEffect/LambertianPrefiltering/LambertianPrefilteringSH.xkfx",
+        "xenko/Assets/ComputeEffect/LambertianPrefiltering/LambertianPrefilteringSHNoComputeEffect.xkfx",
+        "xenko/Assets/ComputeEffect/LambertianPrefiltering/LambertianPrefilteringSHNoComputePass1.xksl",
+        "xenko/Assets/ComputeEffect/LambertianPrefiltering/LambertianPrefilteringSHNoComputePass2.xksl",
+        "xenko/Assets/ComputeEffect/LambertianPrefiltering/LambertianPrefilteringSHPass1.xksl",
+        "xenko/Assets/ComputeEffect/LambertianPrefiltering/LambertianPrefilteringSHPass2.xksl",
+        "xenko/Assets/Core/BackgroundVelocity.xksl",
+        "xenko/Assets/Core/BackgroundVelocityEffect.xkfx",
+        "xenko/Assets/Core/ColorBase.xksl",
+        "xenko/Assets/Core/DynamicSampler.xksl",
+        "xenko/Assets/Core/DynamicTexture.xksl",
+        "xenko/Assets/Core/DynamicTextureCube.xksl",
+        "xenko/Assets/Core/DynamicTextureStream.xksl",
+        "xenko/Assets/Core/MeshVelocity.xksl",
+        "xenko/Assets/Core/NormalBase.xksl",
+        "xenko/Assets/Core/NormalFromMesh.xksl",
+        "xenko/Assets/Core/NormalFromNormalMapping.xksl",
+        "xenko/Assets/Core/NormalStream.xksl",
+        "xenko/Assets/Core/NormalUpdate.xksl",
+        "xenko/Assets/Core/PositionHStream4.xksl",
+        "xenko/Assets/Core/PositionStream.xksl",
+        "xenko/Assets/Core/PositionStream2.xksl",
+        "xenko/Assets/Core/PositionStream4.xksl",
+        "xenko/Assets/Core/PositionVertexTransform.xksl",
+        "xenko/Assets/Core/ScreenPositionBase.xksl",
+        "xenko/Assets/Core/ShadingBase.xksl",
+        "xenko/Assets/Core/ShadingColor.xksl",
+        "xenko/Assets/Core/VelocityOutput.xksl",
+        "xenko/Assets/Core/VelocityStream.xksl",
+        "xenko/Assets/Deferred/GBuffer.xksl",
+        "xenko/Assets/Editor/CompilationErrorShader.xksl",
+        "xenko/Assets/Editor/EffectCompiling.xksl",
+        "xenko/Assets/Editor/LightConstantWhite.xksl",
+        "xenko/Assets/Editor/SelectedSpriteShader.xksl",
+        "xenko/Assets/Editor/SharedTextureCoordinate.xksl",
+        "xenko/Assets/Editor/Sprite3DBase.xksl",
+        "xenko/Assets/Editor/SpritePicking.xksl",
+        "xenko/Assets/Images/AmbientOcclusion/AmbientOcclusionBlurEffect.xkfx",
+        "xenko/Assets/Images/AmbientOcclusion/AmbientOcclusionBlurShader.xksl",
+        "xenko/Assets/Images/AmbientOcclusion/AmbientOcclusionRawAOEffect.xkfx",
+        "xenko/Assets/Images/AmbientOcclusion/AmbientOcclusionRawAOShader.xksl",
+        "xenko/Assets/Images/AmbientOcclusion/ApplyAmbientOcclusionShader.xksl",
+        "xenko/Assets/Images/AntiAliasing/FXAAShader.xksl",
+        "xenko/Assets/Images/AntiAliasing/FXAAShaderEffect.xkfx",
+        "xenko/Assets/Images/AntiAliasing/TemporalAntiAliasShader.xksl",
+        "xenko/Assets/Images/Bloom/BloomAfterimageCombineShader.xksl",
+        "xenko/Assets/Images/Bloom/BloomAfterimageShader.xksl",
+        "xenko/Assets/Images/BrightFilter/BrightFilterShader.xksl",
+        "xenko/Assets/Images/ColorCombiner/ColorCombinerEffect.xkfx",
+        "xenko/Assets/Images/ColorCombiner/ColorCombinerShader.xksl",
+        "xenko/Assets/Images/ColorTransforms/ColorTransformGroupEffect.xkfx",
+        "xenko/Assets/Images/ColorTransforms/ColorTransformGroupShader.xksl",
+        "xenko/Assets/Images/ColorTransforms/ColorTransformShader.xksl",
+        "xenko/Assets/Images/ColorTransforms/LuminanceToChannelShader.xksl",
+        "xenko/Assets/Images/ColorTransforms/Noise/FilmGrainShader.xksl",
+        "xenko/Assets/Images/ColorTransforms/ToneMap/ToneMapCommonOperatorShader.xksl",
+        "xenko/Assets/Images/ColorTransforms/ToneMap/ToneMapDragoOperatorShader.xksl",
+        "xenko/Assets/Images/ColorTransforms/ToneMap/ToneMapEffect.xkfx",
+        "xenko/Assets/Images/ColorTransforms/ToneMap/ToneMapExponentialOperatorShader.xksl",
+        "xenko/Assets/Images/ColorTransforms/ToneMap/ToneMapHejl2OperatorShader.xksl",
+        "xenko/Assets/Images/ColorTransforms/ToneMap/ToneMapHejlDawsonOperatorShader.xksl",
+        "xenko/Assets/Images/ColorTransforms/ToneMap/ToneMapLogarithmicOperatorShader.xksl",
+        "xenko/Assets/Images/ColorTransforms/ToneMap/ToneMapMikeDayOperatorShader.xksl",
+        "xenko/Assets/Images/ColorTransforms/ToneMap/ToneMapOperatorShader.xksl",
+        "xenko/Assets/Images/ColorTransforms/ToneMap/ToneMapReinhardOperatorShader.xksl",
+        "xenko/Assets/Images/ColorTransforms/ToneMap/ToneMapShader.xksl",
+        "xenko/Assets/Images/ColorTransforms/ToneMap/ToneMapU2FilmicOperatorShader.xksl",
+        "xenko/Assets/Images/ColorTransforms/Vignetting/VignettingShader.xksl",
+        "xenko/Assets/Images/DepthMinMax/DepthMinMaxEffect.xkfx",
+        "xenko/Assets/Images/DepthMinMax/DepthMinMaxShader.xksl",
+        "xenko/Assets/Images/DepthOfField/BokehTechnique/Hexagonal/McIntoshCombineShader.xksl",
+        "xenko/Assets/Images/DepthOfField/BokehTechnique/Hexagonal/McIntoshOptimizedEffect.xkfx",
+        "xenko/Assets/Images/DepthOfField/BokehTechnique/Hexagonal/McIntoshOptimizedShader.xksl",
+        "xenko/Assets/Images/DepthOfField/BokehTechnique/Hexagonal/TripleRhombiCombineShader.xksl",
+        "xenko/Assets/Images/DepthOfField/CircleOfConfusion.xksl",
+        "xenko/Assets/Images/DepthOfField/CoCLinearDepthShader.xksl",
+        "xenko/Assets/Images/DepthOfField/CoCMapBlurEffect.xkfx",
+        "xenko/Assets/Images/DepthOfField/CoCMapBlurShader.xksl",
+        "xenko/Assets/Images/DepthOfField/CombineFrontCoCEffect.xkfx",
+        "xenko/Assets/Images/DepthOfField/CombineFrontCoCShader.xksl",
+        "xenko/Assets/Images/DepthOfField/CombineLevelsFromCoCEffect.xkfx",
+        "xenko/Assets/Images/DepthOfField/CombineLevelsFromCoCShader.xksl",
+        "xenko/Assets/Images/DepthOfField/DepthAwareDirectionalBlurEffect.xkfx",
+        "xenko/Assets/Images/DepthOfField/DepthAwareDirectionalBlurShader.xksl",
+        "xenko/Assets/Images/DepthOfField/DepthAwareDirectionalBlurUtil.xksl",
+        "xenko/Assets/Images/DepthOfField/PointDepth.xksl",
+        "xenko/Assets/Images/DepthOfField/ThresholdAlphaCoC.xksl",
+        "xenko/Assets/Images/DepthOfField/ThresholdAlphaCoCFront.xksl",
+        "xenko/Assets/Images/Dither/Dither.xksl",
+        "xenko/Assets/Images/Fog/FogEffect.xksl",
+        "xenko/Assets/Images/GaussianBlur/GaussianBlurEffect.xkfx",
+        "xenko/Assets/Images/GaussianBlur/GaussianBlurShader.xksl",
+        "xenko/Assets/Images/ImageEffectShader.xksl",
+        "xenko/Assets/Images/ImageScaler/ImageScalerEffect.xkfx",
+        "xenko/Assets/Images/ImageScaler/ImageScalerShader.xksl",
+        "xenko/Assets/Images/LensFlare/FlareArtifactEffect.xkfx",
+        "xenko/Assets/Images/LensFlare/FlareArtifactShader.xksl",
+        "xenko/Assets/Images/LensFlare/FlareReplicate.xksl",
+        "xenko/Assets/Images/LightShafts/AdditiveLightEffect.xksl",
+        "xenko/Assets/Images/LightShafts/AdditiveLightShader.xksl",
+        "xenko/Assets/Images/LightShafts/LightShaftsEffect.xkfx",
+        "xenko/Assets/Images/LightShafts/LightShaftsShader.xksl",
+        "xenko/Assets/Images/LightShafts/PostEffectBoundingRay.xksl",
+        "xenko/Assets/Images/LightShafts/VolumeMinMaxShader.xksl",
+        "xenko/Assets/Images/LightStreak/LightStreakEffect.xkfx",
+        "xenko/Assets/Images/LightStreak/LightStreakShader.xksl",
+        "xenko/Assets/Images/LocalReflections/SSLRBlurPass.xksl",
+        "xenko/Assets/Images/LocalReflections/SSLRCombinePass.xksl",
+        "xenko/Assets/Images/LocalReflections/SSLRCommon.xksl",
+        "xenko/Assets/Images/LocalReflections/SSLRDepthPass.xksl",
+        "xenko/Assets/Images/LocalReflections/SSLRRayTracePass.xksl",
+        "xenko/Assets/Images/LocalReflections/SSLRResolvePass.xksl",
+        "xenko/Assets/Images/LocalReflections/SSLRTemporalPass.xksl",
+        "xenko/Assets/Images/LuminanceEffect/LuminanceLogShader.xksl",
+        "xenko/Assets/Images/LuminanceEffect/LuminanceUtils.xksl",
+        "xenko/Assets/Images/Outline/OutlineEffect.xksl",
+        "xenko/Assets/Images/RangeConversion/RangeCompressorShader.xksl",
+        "xenko/Assets/Images/RangeConversion/RangeDecompressorShader.xksl",
+        "xenko/Assets/Images/SphericalHarmonics/SphericalHarmonicsBase.xksl",
+        "xenko/Assets/Images/SphericalHarmonics/SphericalHarmonicsParameters.xkfx",
+        "xenko/Assets/Images/SphericalHarmonics/SphericalHarmonicsRenderer.xksl",
+        "xenko/Assets/Images/SphericalHarmonics/SphericalHarmonicsRendererEffect.xkfx",
+        "xenko/Assets/Images/SphericalHarmonics/SphericalHarmonicsUtils.xksl",
+        "xenko/Assets/Images/SubsurfaceScattering/SubsurfaceScatteringBlurEffect.xkfx",
+        "xenko/Assets/Images/SubsurfaceScattering/SubsurfaceScatteringBlurShader.xksl",
+        "xenko/Assets/LightProbes/BakeLightProbeShader.xksl",
+        "xenko/Assets/LightProbes/ComputeSphericalHarmonics.xksl",
+        "xenko/Assets/LightProbes/LightProbeShader.xksl",
+        "xenko/Assets/LightProbes/XenkoBakeLightProbeEffect.xkfx",
+        "xenko/Assets/Lights/DirectLightGroup.xksl",
+        "xenko/Assets/Lights/DirectLightGroupArray.xksl",
+        "xenko/Assets/Lights/DirectLightGroupFixed.xksl",
+        "xenko/Assets/Lights/DirectLightGroupPerDraw.xksl",
+        "xenko/Assets/Lights/DirectLightGroupPerView.xksl",
+        "xenko/Assets/Lights/EnvironmentLight.xksl",
+        "xenko/Assets/Lights/EnvironmentLightArray.xksl",
+        "xenko/Assets/Lights/LightClustered.xksl",
+        "xenko/Assets/Lights/LightClusteredPointGroup.xksl",
+        "xenko/Assets/Lights/LightClusteredPointGroupLinear.xksl",
+        "xenko/Assets/Lights/LightClusteredSpotGroup.xksl",
+        "xenko/Assets/Lights/LightClusteredSpotGroupLinear.xksl",
+        "xenko/Assets/Lights/LightDirectional.xksl",
+        "xenko/Assets/Lights/LightDirectionalGroup.xksl",
+        "xenko/Assets/Lights/LightPoint.xksl",
+        "xenko/Assets/Lights/LightPointGroup.xksl",
+        "xenko/Assets/Lights/LightSimpleAmbient.xksl",
+        "xenko/Assets/Lights/LightSkyboxEffect.xkfx",
+        "xenko/Assets/Lights/LightSkyboxShader.xksl",
+        "xenko/Assets/Lights/LightSpot.xksl",
+        "xenko/Assets/Lights/LightSpotAttenuationDefault.xksl",
+        "xenko/Assets/Lights/LightSpotAttenuationRectangular.xksl",
+        "xenko/Assets/Lights/LightSpotGroup.xksl",
+        "xenko/Assets/Lights/LightSpotGroupLinear.xksl",
+        "xenko/Assets/Lights/LightStream.xksl",
+        "xenko/Assets/Lights/LightUtil.xksl",
+        "xenko/Assets/Lights/SpotLightDataInternalShader.xksl",
+        "xenko/Assets/Lights/TextureProjection/TextureProjectionCommon.xksl",
+        "xenko/Assets/Lights/TextureProjection/TextureProjectionFilterDefault.xksl",
+        "xenko/Assets/Lights/TextureProjection/TextureProjectionGroup.xksl",
+        "xenko/Assets/Lights/TextureProjection/TextureProjectionReceiverBase.xksl",
+        "xenko/Assets/Lights/TextureProjection/TextureProjectionReceiverSpot.xksl",
+        "xenko/Assets/Materials/CelShading/IMaterialCelShadingLightFunction.xksl",
+        "xenko/Assets/Materials/CelShading/MaterialCelShadingLightDefault.xksl",
+        "xenko/Assets/Materials/CelShading/MaterialCelShadingLightRamp.xksl",
+        "xenko/Assets/Materials/CelShading/MaterialSurfaceShadingDiffuseCelShading.xksl",
+        "xenko/Assets/Materials/CelShading/MaterialSurfaceShadingSpecularCelShading.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/3dsMax/ComputeColorAdd3ds.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/3dsMax/ComputeColorDarken3ds.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/3dsMax/ComputeColorDifference3ds.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/3dsMax/ComputeColorLighten3ds.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/3dsMax/ComputeColorMask3ds.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/3dsMax/ComputeColorMultiply3ds.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/3dsMax/ComputeColorOver3ds.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/3dsMax/ComputeColorOverlay3ds.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/3dsMax/ComputeColorSubtract3ds.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColor.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColor3.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorAdd.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorAdd3.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorAverage.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorCave.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorColor.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorColorBurn.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorColorDodge.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorConstantColorLink.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorConstantFloatLink.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorConstantLink.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorDesaturate.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorDivide.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorExclusion.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorFixed.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorFromStream.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorHardLight.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorHardMix.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorHue.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorIlluminate.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorIn.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorLerpAlpha.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorLinearBurn.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorLinearDodge.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorMask.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorMultiply.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorOne.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorOut.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorOutdoor.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorOverlay.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorParameter.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorPinLight.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorSaturate.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorSaturation.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorScaler.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorScreen.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorSoftLight.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorStream.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorSubstituteAlpha.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorSubstituteAlphaWithColor.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorSubtract.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorSynthetic.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorTexture.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureDynamicScaledOffset.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureLodSampler.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureLodScaledOffsetDynamicSampler.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureLodScaledOffsetSampler.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureLodScaledSampler.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureRepeat.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureSampler.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureScaled.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureScaledOffset.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureScaledOffsetDynamicSampler.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureScaledOffsetDynamicSamplerRandomUV.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureScaledOffsetSampler.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureScaledSampler.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorThreshold.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/ComputeColorValue.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/Maya/ComputeColorAddMaya.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/Maya/ComputeColorDarkenMaya.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/Maya/ComputeColorDifferenceMaya.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/Maya/ComputeColorLightenMaya.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/Maya/ComputeColorMultiplyMaya.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/Maya/ComputeColorOverMaya.xksl",
+        "xenko/Assets/Materials/ComputeColors/Shaders/Maya/ComputeColorSubtractMaya.xksl",
+        "xenko/Assets/Materials/Hair/DirectionFunction/IMaterialHairDirectionFunction.xksl",
+        "xenko/Assets/Materials/Hair/DirectionFunction/MaterialHairDirectionFunctionBitangent.xksl",
+        "xenko/Assets/Materials/Hair/DirectionFunction/MaterialHairDirectionFunctionTangent.xksl",
+        "xenko/Assets/Materials/Hair/DiscardFunction/IMaterialHairDiscardFunction.xksl",
+        "xenko/Assets/Materials/Hair/DiscardFunction/MaterialHairDiscardFunctionOpaquePass.xksl",
+        "xenko/Assets/Materials/Hair/DiscardFunction/MaterialHairDiscardFunctionTransparentPass.xksl",
+        "xenko/Assets/Materials/Hair/LightAttenuationFunction/IMaterialHairLightAttenuationFunction.xksl",
+        "xenko/Assets/Materials/Hair/LightAttenuationFunction/MaterialHairLightAttenuationFunctionDirectional.xksl",
+        "xenko/Assets/Materials/Hair/LightAttenuationFunction/MaterialHairLightAttenuationFunctionNone.xksl",
+        "xenko/Assets/Materials/Hair/MaterialHairShared.xksl",
+        "xenko/Assets/Materials/Hair/MaterialSurfaceShadingDiffuseHair.xksl",
+        "xenko/Assets/Materials/Hair/MaterialSurfaceShadingSpecularHair.xksl",
+        "xenko/Assets/Materials/Hair/ShadowingFunction/IMaterialHairShadowingFunction.xksl",
+        "xenko/Assets/Materials/Hair/ShadowingFunction/MaterialHairShadowingFunctionScattering.xksl",
+        "xenko/Assets/Materials/Hair/ShadowingFunction/MaterialHairShadowingFunctionShadowing.xksl",
+        "xenko/Assets/Materials/IMaterialSurfaceDomain.xksl",
+        "xenko/Assets/Materials/IStreamInitializer.xksl",
+        "xenko/Assets/Materials/MaterialDisplacementStream.xksl",
+        "xenko/Assets/Materials/MaterialDomainStream.xksl",
+        "xenko/Assets/Materials/MaterialStreamAdditiveBlend.xksl",
+        "xenko/Assets/Materials/MaterialSurfaceDisplacement.xksl",
+        "xenko/Assets/Materials/MaterialSurfaceDomainStageCompositor.xksl",
+        "xenko/Assets/Materials/MaterialTessellationStream.xksl",
+        "xenko/Assets/Materials/Shaders/ComputeColorMaterialAlphaBlend.xksl",
+        "xenko/Assets/Materials/Shaders/GBufferOutputNormals.xksl",
+        "xenko/Assets/Materials/Shaders/GBufferOutputSpecularColorRoughness.xksl",
+        "xenko/Assets/Materials/Shaders/GBufferOutputSubsurfaceScatteringMaterialIndex.xksl",
+        "xenko/Assets/Materials/Shaders/IMaterialSpecularMicrofacetEnvironmentFunction.xksl",
+        "xenko/Assets/Materials/Shaders/IMaterialSpecularMicrofacetFresnelFunction.xksl",
+        "xenko/Assets/Materials/Shaders/IMaterialSpecularMicrofacetNormalDistributionFunction.xksl",
+        "xenko/Assets/Materials/Shaders/IMaterialSpecularMicrofacetVisibilityFunction.xksl",
+        "xenko/Assets/Materials/Shaders/IMaterialStreamBlend.xksl",
+        "xenko/Assets/Materials/Shaders/IMaterialSurface.xksl",
+        "xenko/Assets/Materials/Shaders/IMaterialSurfacePixel.xksl",
+        "xenko/Assets/Materials/Shaders/IMaterialSurfaceShading.xksl",
+        "xenko/Assets/Materials/Shaders/IMaterialSurfaceVertex.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialFrontBackBlendShader.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialPixelShadingStream.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialPixelStream.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSpecularMicrofacetEnvironmentGGXLUT.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSpecularMicrofacetEnvironmentGGXPolynomial.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSpecularMicrofacetEnvironmentThinGlass.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSpecularMicrofacetFresnelNone.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSpecularMicrofacetFresnelSchlick.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSpecularMicrofacetFresnelThinGlass.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSpecularMicrofacetNormalDistributionBeckmann.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSpecularMicrofacetNormalDistributionBlinnPhong.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSpecularMicrofacetNormalDistributionGGX.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSpecularMicrofacetVisibilityCookTorrance.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSpecularMicrofacetVisibilityImplicit.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSpecularMicrofacetVisibilityKelemen.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSpecularMicrofacetVisibilityNeumann.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSpecularMicrofacetVisibilitySmithBeckmann.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSpecularMicrofacetVisibilitySmithGGXCorrelated.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSpecularMicrofacetVisibilitySmithSchlickBeckmann.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSpecularMicrofacetVisibilitySmithSchlickGGX.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialStream.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialStreamLinearBlend.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialStreamNormalBlend.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceArray.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceDiffuse.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceDiffuseMetalFlakes.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceDiffuseSpecularAlphaBlendColor.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceEmissiveShading.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceGlossinessMap.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceGlossinessMapMetalFlakes.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceLightingAndShading.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceMetalness.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceNormalMap.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceNormalStreamShading.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfacePixelStageCompositor.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceSetStreamFromComputeColor.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceShadingBlend.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceShadingDiffuseLambert.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceShadingSpecularBlinnPhong.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceShadingSpecularMicrofacet.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceStreamShading.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceStreamsBlend.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceTransmittanceShading.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceTransparentAlphaDiscard.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceVertexDisplacement.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialSurfaceVertexStageCompositor.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialTransmittanceReflectanceStream.xksl",
+        "xenko/Assets/Materials/Shaders/MaterialVertexStream.xksl",
+        "xenko/Assets/Materials/SubsurfaceScattering/MaterialSurfaceSubsurfaceScatteringShading.xksl",
+        "xenko/Assets/Materials/SubsurfaceScattering/ScatteringProfileFunction/IMaterialSubsurfaceScatteringScatteringProfile.xksl",
+        "xenko/Assets/Materials/SubsurfaceScattering/ScatteringProfileFunction/MaterialSubsurfaceScatteringScatteringProfileCustomUniform.xksl",
+        "xenko/Assets/Materials/SubsurfaceScattering/ScatteringProfileFunction/MaterialSubsurfaceScatteringScatteringProfileCustomVarying.xksl",
+        "xenko/Assets/Materials/SubsurfaceScattering/ScatteringProfileFunction/MaterialSubsurfaceScatteringScatteringProfileSkin.xksl",
+        "xenko/Assets/ProceduralModels/CameraCube.xksl",
+        "xenko/Assets/Shaders/Camera.xksl",
+        "xenko/Assets/Shaders/Global.xksl",
+        "xenko/Assets/Shaders/GlobalVR.xksl",
+        "xenko/Assets/Shaders/LinePrimitiveShader.xksl",
+        "xenko/Assets/Shaders/PrimitiveShader.xksl",
+        "xenko/Assets/Shaders/Transformation.xksl",
+        "xenko/Assets/Shadows/ShadowGroup.xksl",
+        "xenko/Assets/Shadows/ShadowMapCaster.xkfx",
+        "xenko/Assets/Shadows/ShadowMapCasterAlphaDiscard.xksl",
+        "xenko/Assets/Shadows/ShadowMapCasterCubeMap.xkfx",
+        "xenko/Assets/Shadows/ShadowMapCasterCubeMapProjection.xksl",
+        "xenko/Assets/Shadows/ShadowMapCasterNoPixelShader.xksl",
+        "xenko/Assets/Shadows/ShadowMapCasterParaboloid.xkfx",
+        "xenko/Assets/Shadows/ShadowMapCasterParaboloidProjection.xksl",
+        "xenko/Assets/Shadows/ShadowMapCasterVsm.xksl",
+        "xenko/Assets/Shadows/ShadowMapCommon.xksl",
+        "xenko/Assets/Shadows/ShadowMapFilterBase.xksl",
+        "xenko/Assets/Shadows/ShadowMapFilterDefault.xksl",
+        "xenko/Assets/Shadows/ShadowMapFilterPcf.xksl",
+        "xenko/Assets/Shadows/ShadowMapFilterVsm.xksl",
+        "xenko/Assets/Shadows/ShadowMapGroup.xksl",
+        "xenko/Assets/Shadows/ShadowMapReceiverBase.xksl",
+        "xenko/Assets/Shadows/ShadowMapReceiverDirectional.xksl",
+        "xenko/Assets/Shadows/ShadowMapReceiverPointCubeMap.xksl",
+        "xenko/Assets/Shadows/ShadowMapReceiverPointParaboloid.xksl",
+        "xenko/Assets/Shadows/ShadowMapReceiverSpot.xksl",
+        "xenko/Assets/Shadows/ShadowStream.xksl",
+        "xenko/Assets/Skinning/NormalMeshSkinning.xksl",
+        "xenko/Assets/Skinning/NormalVSSkinningFromMesh.xksl",
+        "xenko/Assets/Skinning/NormalVSSkinningNormalMapping.xksl",
+        "xenko/Assets/Skinning/TangentMeshSkinning.xksl",
+        "xenko/Assets/Skinning/TransformationSkinning.xksl",
+        "xenko/Assets/Skyboxes/CubemapUtils.xksl",
+        "xenko/Assets/Skyboxes/IComputeEnvironmentColor.xksl",
+        "xenko/Assets/Skyboxes/LevelCubeMapEnvironmentColor.xksl",
+        "xenko/Assets/Skyboxes/RoughnessCubeMapEnvironmentColor.xksl",
+        "xenko/Assets/Skyboxes/SkyboxShaderBase.xksl",
+        "xenko/Assets/Skyboxes/SkyboxShaderCubemap.xksl",
+        "xenko/Assets/Skyboxes/SkyboxShaderTexture.xksl",
+        "xenko/Assets/Skyboxes/SkyboxStream.xksl",
+        "xenko/Assets/Skyboxes/SphericalHarmonicsEnvironmentColor.xksl",
+        "xenko/Assets/Tessellation/TessellationAE2.xksl",
+        "xenko/Assets/Tessellation/TessellationAE3.xksl",
+        "xenko/Assets/Tessellation/TessellationAE4.xksl",
+        "xenko/Assets/Tessellation/TessellationBase.xksl",
+        "xenko/Assets/Tessellation/TessellationFlat.xksl",
+        "xenko/Assets/Tessellation/TessellationPN.xksl",
+        "xenko/Assets/Transformation/TransformationBase.xksl",
+        "xenko/Assets/Transformation/TransformationMatrix.xksl",
+        "xenko/Assets/Transformation/TransformationWAndVP.xksl",
+        "xenko/Assets/Transformation/TransformationWVP.xksl",
+        "xenko/Assets/Transformation/TransformationZero.xksl",
+        "xenko/Assets/Utils/BlendUtils.xksl",
+        "xenko/Assets/Utils/DepthBase.xksl",
+        "xenko/Assets/Utils/FlattenLayers.xksl",
+        "xenko/Assets/Utils/HSVUtils.xksl",
+        "xenko/Assets/Utils/HighlightShader.xksl",
+        "xenko/Assets/Utils/Math.xksl",
+        "xenko/Assets/Utils/ModelComponentPickingEffect.xkfx",
+        "xenko/Assets/Utils/ModelComponentPickingShader.xksl",
+        "xenko/Assets/Utils/NormalPack.xksl",
+        "xenko/Assets/Utils/NormalUtil.xksl",
+        "xenko/Assets/Utils/Picking.xkfx",
+        "xenko/Assets/Utils/PickingShader.xksl",
+        "xenko/Assets/Utils/SwapUV.xksl",
+        "xenko/Assets/Utils/Utilities.xksl",
+        "xenko/Assets/XenkoEffectBase.xkfx",
+        "xenko/Assets/XenkoForwardShadingEffect.xkfx",
+        "xenko/Assets/XenkoWireframeShadingEffect.xkfx",
+        "xenko/Xenko.Rendering.xkpkg"
+      ]
+    },
+    "Xenko.Shaders/3.3.2-beta01": {
+      "sha512": "QbLNVHzGugxwRgUwzvFifO7jWZsGP31rMbCXThu1GL7ZRM7hSFbQayQGJfG+D+2wY9FzkTsxFJEhSrUY1VLYFw==",
+      "type": "package",
+      "path": "xenko.shaders/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netstandard2.0/Xenko.Shaders.dll",
+        "lib/netstandard2.0/Xenko.Shaders.pdb",
+        "xenko.shaders.3.3.2-beta01.nupkg.sha512",
+        "xenko.shaders.nuspec"
+      ]
+    },
+    "Xenko.Shaders.Compiler/3.3.2-beta01": {
+      "sha512": "b46u9LJ3Uw+xsiZ0bt+F54gGw2s0fjanHgkAEcgow8f1GHXk4TFnT15kNWLN80jy8BT84iXpvUJ5zDNMLzrFxQ==",
+      "type": "package",
+      "path": "xenko.shaders.compiler/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "ref/netstandard2.0/Xenko.Shaders.Compiler.dll",
+        "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.Shaders.Compiler.dll",
+        "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.Shaders.Compiler.pdb",
+        "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.Shaders.Compiler.ssdeps",
+        "runtimes/linux-vulkan/lib/netstandard2.0/glslangValidator",
+        "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.Shaders.Compiler.dll",
+        "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.Shaders.Compiler.pdb",
+        "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.Shaders.Compiler.ssdeps",
+        "runtimes/osx-vulkan/lib/netstandard2.0/glslangValidator",
+        "runtimes/win-d3d11/lib/netstandard2.0/Xenko.Shaders.Compiler.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/Xenko.Shaders.Compiler.pdb",
+        "runtimes/win-d3d11/lib/netstandard2.0/Xenko.Shaders.Compiler.ssdeps",
+        "runtimes/win-d3d11/lib/netstandard2.0/glslangValidator.exe",
+        "runtimes/win-d3d11/lib/netstandard2.0/x64/d3dcompiler_47.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x86/d3dcompiler_47.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/Xenko.Shaders.Compiler.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/Xenko.Shaders.Compiler.pdb",
+        "runtimes/win-vulkan/lib/netstandard2.0/Xenko.Shaders.Compiler.ssdeps",
+        "runtimes/win-vulkan/lib/netstandard2.0/glslangValidator.exe",
+        "runtimes/win-vulkan/lib/netstandard2.0/x64/d3dcompiler_47.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x86/d3dcompiler_47.dll",
+        "xenko.shaders.compiler.3.3.2-beta01.nupkg.sha512",
+        "xenko.shaders.compiler.nuspec"
+      ]
+    },
+    "Xenko.Shaders.Parser/3.3.2-beta01": {
+      "sha512": "di3e9EgtlUfZ29fc5k1rzikpQgVpuM8EuWfWMjWCqoNz4ZR016sxK2tyNjDDUxKR+FoZoebgx845nIAk2RD6UQ==",
+      "type": "package",
+      "path": "xenko.shaders.parser/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netstandard2.0/Xenko.Shaders.Parser.dll",
+        "lib/netstandard2.0/Xenko.Shaders.Parser.pdb",
+        "xenko.shaders.parser.3.3.2-beta01.nupkg.sha512",
+        "xenko.shaders.parser.nuspec"
+      ]
+    },
+    "Xenko.UI/3.3.2-beta01": {
+      "sha512": "DcGH4nX/CQhmXINIq7xe8RbYlSa9dNWJpKx1xckLmNzDx+xW6I1c13ad9sKvNrrvrqAAdP6FwK8gtRaBGB5uyQ==",
+      "type": "package",
+      "path": "xenko.ui/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "ref/netstandard2.0/Xenko.UI.dll",
+        "runtimes/linux/lib/netstandard2.0/Xenko.UI.dll",
+        "runtimes/linux/lib/netstandard2.0/Xenko.UI.pdb",
+        "runtimes/osx/lib/netstandard2.0/Xenko.UI.dll",
+        "runtimes/osx/lib/netstandard2.0/Xenko.UI.pdb",
+        "runtimes/win/lib/netstandard2.0/Xenko.UI.dll",
+        "runtimes/win/lib/netstandard2.0/Xenko.UI.pdb",
+        "xenko.ui.3.3.2-beta01.nupkg.sha512",
+        "xenko.ui.nuspec"
+      ]
+    },
+    "Xenko.Video/3.3.2-beta01": {
+      "sha512": "DbDpkQ9krd6aRi3th0DNt0LNnzwJi1yRVYGv4XvZ+csqC6GNlnQJFOJ3K3dK2dbYvydtCmj/yzA5u1GvFFLg5w==",
+      "type": "package",
+      "path": "xenko.video/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "ref/netstandard2.0/Xenko.Video.dll",
+        "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.Video.dll",
+        "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.Video.pdb",
+        "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.Video.dll",
+        "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.Video.pdb",
+        "runtimes/win-d3d11/lib/netstandard2.0/Xenko.Video.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/Xenko.Video.pdb",
+        "runtimes/win-d3d11/lib/netstandard2.0/Xenko.Video.ssdeps",
+        "runtimes/win-d3d11/lib/netstandard2.0/x64/avcodec-57.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x64/avdevice-57.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x64/avfilter-6.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x64/avformat-57.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x64/avutil-55.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x64/swresample-2.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x64/swscale-4.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x86/avcodec-57.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x86/avdevice-57.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x86/avfilter-6.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x86/avformat-57.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x86/avutil-55.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x86/swresample-2.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x86/swscale-4.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/Xenko.Video.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/Xenko.Video.pdb",
+        "runtimes/win-vulkan/lib/netstandard2.0/Xenko.Video.ssdeps",
+        "runtimes/win-vulkan/lib/netstandard2.0/x64/avcodec-57.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x64/avdevice-57.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x64/avfilter-6.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x64/avformat-57.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x64/avutil-55.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x64/swresample-2.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x64/swscale-4.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x86/avcodec-57.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x86/avdevice-57.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x86/avfilter-6.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x86/avformat-57.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x86/avutil-55.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x86/swresample-2.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x86/swscale-4.dll",
+        "xenko.video.3.3.2-beta01.nupkg.sha512",
+        "xenko.video.nuspec",
+        "xenko/Assets/VideoShader.xksl",
+        "xenko/Xenko.Video.xkpkg"
+      ]
+    },
+    "Xenko.VirtualReality/3.3.2-beta01": {
+      "sha512": "A5bCnxb0m2W++NjgjoogNEN4c9rHzJfB7fSwjX2QL3QFgDGz3VfNiPNfSBHV/42dV7KCLO3qDgZgzZAbHjsy9A==",
+      "type": "package",
+      "path": "xenko.virtualreality/3.3.2-beta01",
+      "files": [
+        ".nupkg.metadata",
+        "ref/netstandard2.0/Xenko.VirtualReality.dll",
+        "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.VirtualReality.dll",
+        "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.VirtualReality.dll.config",
+        "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.VirtualReality.pdb",
+        "runtimes/linux-vulkan/lib/netstandard2.0/Xenko.VirtualReality.ssdeps",
+        "runtimes/linux-vulkan/lib/netstandard2.0/libxenkovr.so",
+        "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.VirtualReality.dll",
+        "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.VirtualReality.pdb",
+        "runtimes/osx-vulkan/lib/netstandard2.0/Xenko.VirtualReality.ssdeps",
+        "runtimes/osx-vulkan/lib/netstandard2.0/libxenkovr.dylib",
+        "runtimes/win-d3d11/lib/netstandard2.0/Xenko.VirtualReality.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/Xenko.VirtualReality.pdb",
+        "runtimes/win-d3d11/lib/netstandard2.0/Xenko.VirtualReality.ssdeps",
+        "runtimes/win-d3d11/lib/netstandard2.0/x64/libxenkovr.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x64/openvr_api.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x86/libxenkovr.dll",
+        "runtimes/win-d3d11/lib/netstandard2.0/x86/openvr_api.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/Xenko.VirtualReality.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/Xenko.VirtualReality.pdb",
+        "runtimes/win-vulkan/lib/netstandard2.0/Xenko.VirtualReality.ssdeps",
+        "runtimes/win-vulkan/lib/netstandard2.0/x64/libxenkovr.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x64/openvr_api.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x86/libxenkovr.dll",
+        "runtimes/win-vulkan/lib/netstandard2.0/x86/openvr_api.dll",
+        "xenko.virtualreality.3.3.2-beta01.nupkg.sha512",
+        "xenko.virtualreality.nuspec"
+      ]
+    },
+    "FOVTester2/1.0.0": {
+      "type": "project",
+      "path": "../FOVTester2/FOVTester2.csproj",
+      "msbuildProject": "../FOVTester2/FOVTester2.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "FOVTester2 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Phr00t\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Phr00tsSoftware\\XenkoProjects\\FOVTester2\\FOVTester2.Windows\\FOVTester2.Windows.csproj",
+      "projectName": "FOVTester2.Windows",
+      "projectPath": "D:\\Phr00tsSoftware\\XenkoProjects\\FOVTester2\\FOVTester2.Windows\\FOVTester2.Windows.csproj",
+      "packagesPath": "C:\\Users\\Phr00t\\.nuget\\packages\\",
+      "outputPath": "D:\\Phr00tsSoftware\\XenkoProjects\\FOVTester2\\FOVTester2.Windows\\obj\\publish\\win-vulkan\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Phr00t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\Phr00tsSoftware\\xenko\\bin\\packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "D:\\Phr00tsSoftware\\XenkoProjects\\FOVTester2\\FOVTester2\\FOVTester2.csproj": {
+              "projectPath": "D:\\Phr00tsSoftware\\XenkoProjects\\FOVTester2\\FOVTester2\\FOVTester2.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-vulkan": {
+        "#import": []
+      }
+    }
+  }
+}
